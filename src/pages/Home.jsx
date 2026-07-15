@@ -207,15 +207,8 @@ function App() {
             <div className="flex justify-start">
 
               <div className="reveal w-full">
-                <div className="flex justify-between">
-                  <p className="font-script text-xl text-copper">Selected pieces</p>
-                  <Link
-                  to="/products"
-                  className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
-                  >
-                  Show All Products
-                  </Link>
-                </div>
+                  <p className="font- carattere  text-xl text-copper">Selected pieces</p>
+      
                 <h2 className="mt-2 font-display text-4xl tracking-wide text-moon md:text-6xl">
                   Products worth keeping strange
                 </h2>
@@ -223,8 +216,15 @@ function App() {
                   Each commission starts as a material, a motif, and a mood — finished only when it feels unmistakably yours.
                 </p>
               </div>
-
             </div>
+              <div className="flex justify-start">
+                  <Link
+                  to="/products"
+                  className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
+                  >
+                  Show All Products
+                  </Link>
+              </div>
             <div className="mt-16 grid gap-6 lg:grid-cols-12 lg:gap-8">
               <article className="reveal group relative min-h-122 overflow-hidden lg:col-span-7 lg:min-h-144">
                 <img
