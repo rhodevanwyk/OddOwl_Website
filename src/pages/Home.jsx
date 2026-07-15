@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import heroImg from "../assets/hero.png";
 import logoImg from "../assets/logo.png";
-import navLogo from "../assets/favicon.png"
+import navLogo from "../assets/favicon.png";
 import "../index.css";
 import { Link } from "react-router-dom";
 import product1 from '../assets/product1.png'; 
@@ -99,17 +99,14 @@ function App() {
       />
 
       {/* —— Nav —— */}
-      <header className="fixed inset-x-0 top-0 z-50">
+      <header className="fixed inset-x-0 top-0 z-50 bg-black/30 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-8">
           <a href="#top" className="group flex items-center gap-3">
             <img
               src={navLogo}
               alt="OddOwl"
-              className="h-10 w-10 rounded-full object-cover ring-1 ring-sand/20 transition duration-500 group-hover:ring-copper/60"
+              className="h-10 w-10 transition duration-500"
             />
-            <span className="font-display text-md text-sand">
-              OddOwl
-            </span>
           </a>
 
           <nav className="hidden items-center gap-10 md:flex">
@@ -185,13 +182,13 @@ function App() {
             <div className="anim-rise-delay mt-10 flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="bg-leather rounded px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
+                className="bg-leather rounded uppercase px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
               >
                 See The Work
               </a>
               <a
                 href="#contact"
-                className="border border-leather rounded px-8 py-4 font-body text-md tracking-widest text-moon transition hover:border-copper"
+                className="border border-leather uppercase rounded px-8 py-4 font-body text-md tracking-widest text-moon transition hover:border-copper"
               >
                 Request A Custom
               </a>
@@ -206,7 +203,6 @@ function App() {
         >
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="flex justify-start">
-
               <div className="reveal w-full">
                   <p className="font-display  text-xl text-copper">Selected pieces</p>
       
@@ -214,7 +210,8 @@ function App() {
                   Products worth keeping strange
                 </h2>
                 <p className="mt-5 max-w-lg text-lg leading-relaxed text-mist">
-                  Each commission starts as a material, a motif, and a mood — finished only when it feels unmistakably yours.
+                  Each commission starts as a material, a motif, and a mood —
+                  finished only when it feels unmistakably yours.
                 </p>
               </div>
             </div>
