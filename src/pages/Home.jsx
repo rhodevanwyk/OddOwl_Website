@@ -5,6 +5,8 @@ import navLogo from "../assets/favicon.png";
 import "../index.css";
 import { Link } from "react-router-dom";
 import product1 from '../assets/product1.png'; 
+import product2 from '../assets/product2.png'; 
+import product3 from '../assets/product3.png'; 
 
 const navLinks = [
   { href: "#projects", label: "Projects" },
@@ -14,7 +16,7 @@ const navLinks = [
 
 const projects = [
   { 
-    image: product1,
+    image: product2,
     title: "Velvet Cat",
     material: "Damask · Brass snap",
     blurb:
@@ -23,6 +25,7 @@ const projects = [
     accent: "text-brass",
   },
   {
+    image: product1,
     title: "Cork Elephant",
     material: "Natural cork · Embroidery",
     blurb:
@@ -31,6 +34,7 @@ const projects = [
     accent: "text-copper",
   },
   {
+    image: product3,
     title: "Heart Croc",
     material: "Embossed leather · Gold studs",
     blurb:
