@@ -4,6 +4,7 @@ import logoImg from "../assets/logo.png";
 import navLogo from "../assets/favicon.png"
 import "../index.css";
 import { Link } from "react-router-dom";
+import product1 from '../assets/product1.png'; 
 
 const navLinks = [
   { href: "#projects", label: "Projects" },
@@ -235,7 +236,11 @@ function App() {
                   >
                     <div className="flex items-baseline justify-between gap-3">
                       <h3 className="font-display text-2xl text-moon md:text-3xl">
-                        <div class="mask-x-from-70% mask-x-to-90% bg-[url(//mountains.jpg)] ..."></div>
+                         <img
+                          src={product1}
+                          alt="OddOwl"
+                          className="h-10 w-10 rounded-full object-cover ring-1 ring-sand/20 transition duration-500 group-hover:ring-copper/60"
+                          />
                         {project.title}
                       </h3>
                       <span className="font-body text-xs tracking-[0.2em] text-mist uppercase">
