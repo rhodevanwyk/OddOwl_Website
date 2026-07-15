@@ -4,6 +4,9 @@ import logoImg from "../assets/logo.png";
 import navLogo from "../assets/favicon.png";
 import "../index.css";
 import { Link } from "react-router-dom";
+import product1 from '../assets/product1.png'; 
+import product2 from '../assets/product2.png'; 
+import product3 from '../assets/product3.png'; 
 
 const navLinks = [
   { href: "#projects", label: "Projects" },
@@ -12,15 +15,17 @@ const navLinks = [
 ];
 
 const projects = [
-  {
+  { 
+    image: product2,
     title: "Velvet Cat",
     material: "Damask · Brass snap",
     blurb:
       "Baroque blue scrollwork wrapped around a silver feline silhouette — made for nights that refuse ordinary.",
-    tone: "from-velvet/80 via-plume to-void",
-    accent: "text-brass",
+    tone: "from-from/80 via-plume to-void",
+    accent: "text-copper",
   },
   {
+    image: product1,
     title: "Cork Elephant",
     material: "Natural cork · Embroidery",
     blurb:
@@ -29,12 +34,13 @@ const projects = [
     accent: "text-copper",
   },
   {
+    image: product3,
     title: "Heart Croc",
     material: "Embossed leather · Gold studs",
     blurb:
       "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
-    tone: "from-copper/35 via-plume to-void",
-    accent: "text-moon",
+    tone: "from-copper/35 via-from to-void",
+    accent: "text-copper",
   },
 ];
 
@@ -211,7 +217,7 @@ function App() {
                   Products worth keeping strange
                 </h2>
                 <p className="mt-5 max-w-lg text-lg leading-relaxed text-mist">
-                  Each commission starts as a material, a motif, and a mood —
+                  Each commission starts as a material, a motif, and a mood
                   finished only when it feels unmistakably yours.
                 </p>
               </div>
@@ -229,11 +235,16 @@ function App() {
                 {projects.map((project, index) => (
                   <article
                     key={project.title}
-                    className={`reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-linear-to-br ${project.tone} p-6 md:p-8`}
-                  >
+                    className={`flex-1 reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-linear-to-br ${project.tone} p-6 md:p-8`}
+                   >
+                   <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-80 object-cover rounded-lg pb-8"
+                     />
                     <div className="flex items-baseline justify-between gap-3">
                       <h3 className="font-display text-2xl text-moon md:text-3xl">
-                        <div class="mask-x-from-70% mask-x-to-90% bg-[url(//mountains.jpg)] ..."></div>
+
                         {project.title}
                       </h3>
                       <span className="font-body text-xs tracking-[0.2em] text-mist uppercase">
