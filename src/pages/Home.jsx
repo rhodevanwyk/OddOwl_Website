@@ -210,19 +210,19 @@ function App() {
             <div className="flex justify-start">
               <div className="reveal w-full">
                 <p className="font-display  text-xl text-copper">
-                  Selected pieces
+                  Selected Pieces
                 </p>
 
                 <h2 className="mt-2 font-display text-4xl tracking-wide text-moon md:text-6xl">
-                  Products worth keeping strange
+                  Products Worth Keeping Strange
                 </h2>
-                <p className="mt-5 max-w-lg text-lg leading-relaxed text-mist">
+                <p className="mt-5 text-lg text-mist">
                   Each commission starts as a material, a motif, and a mood
                   finished only when it feels unmistakably yours.
                 </p>
               </div>
             </div>
-            <div className="mt-5 flex justify-start">
+            <div className="mt-10 flex justify-start">
               <Link
                 to="/products"
                 className="bg-leather rounded uppercase px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
