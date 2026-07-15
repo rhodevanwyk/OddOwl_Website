@@ -20,7 +20,7 @@ const projects = [
     title: "Velvet Cat",
     material: "Damask · Brass snap",
     blurb:
-      "Baroque blue scrollwork wrapped around a silver feline silhouette — made for nights that refuse ordinary.",
+      "Baroque blue scrollwork wrapped around a silver feline silhouette, made for nights that refuse ordinary.",
     tone: "from-from/80 via-plume to-void",
     accent: "text-copper",
   },
@@ -29,7 +29,7 @@ const projects = [
     title: "Cork Elephant",
     material: "Natural cork · Embroidery",
     blurb:
-      "Raw cork grain meets a hand-stitched elephant — earthy weight with a quiet stare.",
+      "Raw cork grain meets a hand-stitched elephant, earthy weight with a quiet stare.",
     tone: "from-leather/40 via-ink to-void",
     accent: "text-copper",
   },
@@ -225,7 +225,7 @@ function App() {
             <div className="mt-5 flex justify-start">
               <Link
                 to="/products"
-                className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
+                className="bg-leather rounded uppercase px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
               >
                 Show All Products
               </Link>
@@ -235,7 +235,7 @@ function App() {
                 {projects.map((project, index) => (
                   <article
                     key={project.title}
-                    className={`flex-1 reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-linear-to-br ${project.tone} p-6 md:p-8`}
+                    className={`flex-1 reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative rounded overflow-hidden bg-linear-to-br ${project.tone} p-6 md:p-8`}
                    >
                    <img
                       src={project.image}
@@ -247,12 +247,12 @@ function App() {
 
                         {project.title}
                       </h3>
-                      <span className="font-body text-xs tracking-[0.2em] text-mist uppercase">
+                      <span className="font-body text-xs tracking-widest text-mist uppercase">
                         0{index + 1}
                       </span>
                     </div>
                     <p
-                      className={`mt-4 text-sm tracking-[0.16em] uppercase ${project.accent}`}
+                      className={`mt-4 text-sm tracking-widest uppercase ${project.accent}`}
                     >
                       {project.material}
                     </p>
