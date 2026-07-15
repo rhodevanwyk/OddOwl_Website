@@ -207,7 +207,7 @@ function App() {
             <div className="flex justify-start">
 
               <div className="reveal w-full">
-                  <p className="font- carattere  text-xl text-copper">Selected pieces</p>
+                  <p className="font-display  text-xl text-copper">Selected pieces</p>
       
                 <h2 className="mt-2 font-display text-4xl tracking-wide text-moon md:text-6xl">
                   Products worth keeping strange
