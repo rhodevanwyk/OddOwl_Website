@@ -21,8 +21,8 @@ const projects = [
     material: "Damask · Brass snap",
     blurb:
       "Baroque blue scrollwork wrapped around a silver feline silhouette — made for nights that refuse ordinary.",
-    tone: "from-velvet/80 via-plume to-void",
-    accent: "text-brass",
+    tone: "from-from/80 via-plume to-void",
+    accent: "text-copper",
   },
   {
     image: product1,
@@ -39,8 +39,8 @@ const projects = [
     material: "Embossed leather · Gold studs",
     blurb:
       "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
-    tone: "from-copper/35 via-plume to-void",
-    accent: "text-moon",
+    tone: "from-copper/35 via-from to-void",
+    accent: "text-copper",
   },
 ];
 
@@ -239,7 +239,7 @@ function App() {
                    <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-80 object-cover rounded-lg"
+                      className="w-full h-80 object-cover rounded-lg pb-8"
                      />
                     <div className="flex items-baseline justify-between gap-3">
                       <h3 className="font-display text-2xl text-moon md:text-3xl">
