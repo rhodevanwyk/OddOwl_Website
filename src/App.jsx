@@ -225,9 +225,8 @@ function App() {
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-void via-void/40 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-6 md:p-10">
-                  <p className="font-script text-lg text-brass">Featured suite</p>
                   <h3 className="mt-1 font-display text-3xl text-moon md:text-5xl">
-                    Night Market Trio
+                     Featured Collection
                   </h3>
                   <p className="mt-3 max-w-md text-base leading-relaxed text-sand/85 md:text-lg">
                     Cat damask, cork elephant, and crimson heart — three custom silhouettes shot on lived-in velvet.
