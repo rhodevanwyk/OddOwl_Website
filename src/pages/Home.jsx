@@ -234,12 +234,12 @@ function App() {
                 {projects.map((project, index) => (
                   <article
                     key={project.title}
-                    className={`reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-linear-to-br ${project.tone} p-6 md:p-8`}
-                  >
+                    className={`flex-1 reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-linear-to-br ${project.tone} p-6 md:p-8`}
+                   >
                    <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-64 object-cover rounded-lg"
+                      className="w-full h-80 object-cover rounded-lg"
                      />
                     <div className="flex items-baseline justify-between gap-3">
                       <h3 className="font-display text-2xl text-moon md:text-3xl">
