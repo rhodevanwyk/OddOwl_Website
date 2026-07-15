@@ -209,7 +209,7 @@ function App() {
             <div className="reveal max-w-2xl">
               <p className="font-script text-xl text-copper">Selected pieces</p>
               <h2 className="mt-2 font-display text-4xl tracking-wide text-moon md:text-6xl">
-                Projects worth keeping strange
+                Products worth keeping strange
               </h2>
               <p className="mt-5 max-w-lg text-lg leading-relaxed text-mist">
                 Each commission starts as a material, a motif, and a mood — finished only when it feels unmistakably yours.
