@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import heroImg from "../assets/hero.png";
 import logoImg from "../assets/logo.png";
-import navLogo from "../assets/favicon.png"
+import navLogo from "../assets/favicon.png";
 import "../index.css";
 import { Link } from "react-router-dom";
 
@@ -98,17 +98,14 @@ function App() {
       />
 
       {/* —— Nav —— */}
-      <header className="fixed inset-x-0 top-0 z-50">
+      <header className="fixed inset-x-0 top-0 z-50 bg-black/30 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-8">
           <a href="#top" className="group flex items-center gap-3">
             <img
               src={navLogo}
               alt="OddOwl"
-              className="h-10 w-10 rounded-full object-cover ring-1 ring-sand/20 transition duration-500 group-hover:ring-copper/60"
+              className="h-10 w-10 transition duration-500"
             />
-            <span className="font-display text-md text-sand">
-              OddOwl
-            </span>
           </a>
 
           <nav className="hidden items-center gap-10 md:flex">
@@ -184,13 +181,13 @@ function App() {
             <div className="anim-rise-delay mt-10 flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="bg-leather rounded px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
+                className="bg-leather rounded uppercase px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
               >
                 See The Work
               </a>
               <a
                 href="#contact"
-                className="border border-leather rounded px-8 py-4 font-body text-md tracking-widest text-moon transition hover:border-copper"
+                className="border border-leather uppercase rounded px-8 py-4 font-body text-md tracking-widest text-moon transition hover:border-copper"
               >
                 Request A Custom
               </a>
@@ -205,25 +202,26 @@ function App() {
         >
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="flex justify-start">
-
               <div className="reveal w-full">
                 <div className="flex justify-between">
-                  <p className="font-script text-xl text-copper">Selected pieces</p>
+                  <p className="font-script text-xl text-copper">
+                    Selected pieces
+                  </p>
                   <Link
-                  to="/products"
-                  className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
+                    to="/products"
+                    className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
                   >
-                  Show All Products
+                    Show All Products
                   </Link>
                 </div>
                 <h2 className="mt-2 font-display text-4xl tracking-wide text-moon md:text-6xl">
                   Products worth keeping strange
                 </h2>
                 <p className="mt-5 max-w-lg text-lg leading-relaxed text-mist">
-                  Each commission starts as a material, a motif, and a mood — finished only when it feels unmistakably yours.
+                  Each commission starts as a material, a motif, and a mood —
+                  finished only when it feels unmistakably yours.
                 </p>
               </div>
-
             </div>
             <div className="mt-16 grid gap-6 lg:grid-cols-12 lg:gap-8">
               <article className="reveal group relative min-h-122 overflow-hidden lg:col-span-7 lg:min-h-144">
