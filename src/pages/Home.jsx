@@ -217,7 +217,7 @@ function App() {
                 </p>
               </div>
             </div>
-              <div className="flex justify-start">
+              <div className="mt-5 flex justify-start">
                   <Link
                   to="/products"
                   className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
@@ -225,33 +225,17 @@ function App() {
                   Show All Products
                   </Link>
               </div>
-            <div className="mt-16 grid gap-6 lg:grid-cols-12 lg:gap-8">
-              <article className="reveal group relative min-h-122 overflow-hidden lg:col-span-7 lg:min-h-144">
-                <img
-                  src={heroImg}
-                  alt="OddOwl custom bag trio on purple velvet"
-                  className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-[1.04]"
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-void via-void/40 to-transparent" />
-                <div className="absolute inset-x-0 bottom-0 p-6 md:p-10">
-                  <h3 className="mt-1 font-display text-3xl text-moon md:text-5xl">
-                    Featured Collection
-                  </h3>
-                  <p className="mt-3 max-w-md text-base leading-relaxed text-sand/85 md:text-lg">
-                    Cat damask, cork elephant, and crimson heart — three custom
-                    silhouettes shot on lived-in velvet.
-                  </p>
-                </div>
-              </article>
-
-              <div className="flex flex-col gap-6 lg:col-span-5">
+            <div className="mt-16 flex gap-6 lg:gap-8">
+  
+              <div className=" flex gap-6 lg:col-span-7">
                 {projects.map((project, index) => (
                   <article
                     key={project.title}
                     className={`reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-linear-to-br ${project.tone} p-6 md:p-8`}
                   >
-                    <div className="flex items-baseline justify-between gap-4">
+                    <div className="flex items-baseline justify-between gap-3">
                       <h3 className="font-display text-2xl text-moon md:text-3xl">
+                        <div class="mask-x-from-70% mask-x-to-90% bg-[url(//mountains.jpg)] ..."></div>
                         {project.title}
                       </h3>
                       <span className="font-body text-xs tracking-[0.2em] text-mist uppercase">
@@ -259,7 +243,7 @@ function App() {
                       </span>
                     </div>
                     <p
-                      className={`mt-2 text-sm tracking-[0.16em] uppercase ${project.accent}`}
+                      className={`mt-4 text-sm tracking-[0.16em] uppercase ${project.accent}`}
                     >
                       {project.material}
                     </p>
