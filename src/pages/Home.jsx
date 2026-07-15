@@ -23,6 +23,7 @@ const projects = [
       "Baroque blue scrollwork wrapped around a silver feline silhouette, made for nights that refuse ordinary.",
     tone: "from-from/80 via-plume to-void",
     accent: "text-copper",
+    price: "R120",
   },
   {
     image: product1,
@@ -32,6 +33,7 @@ const projects = [
       "Raw cork grain meets a hand-stitched elephant, earthy weight with a quiet stare.",
     tone: "from-leather/40 via-ink to-void",
     accent: "text-copper",
+    price: "R150",
   },
   {
     image: product3,
@@ -41,6 +43,7 @@ const projects = [
       "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
     tone: "from-copper/35 via-from to-void",
     accent: "text-copper",
+    price: "R350",
   },
 ];
 
@@ -248,7 +251,7 @@ function App() {
                         {project.title}
                       </h3>
                       <span className="font-body text-xs tracking-widest text-mist uppercase">
-                        0{index + 1}
+                          {project.price}
                       </span>
                     </div>
                     <p
