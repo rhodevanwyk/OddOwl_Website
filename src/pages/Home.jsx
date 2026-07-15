@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import heroImg from "../assets/hero.png";
 import logoImg from "../assets/logo.png";
+import navLogo from "../assets/favicon.png"
 import "../index.css";
 import { Link } from "react-router-dom";
 
@@ -14,21 +15,24 @@ const projects = [
   {
     title: "Velvet Cat",
     material: "Damask · Brass snap",
-    blurb: "Baroque blue scrollwork wrapped around a silver feline silhouette — made for nights that refuse ordinary.",
+    blurb:
+      "Baroque blue scrollwork wrapped around a silver feline silhouette — made for nights that refuse ordinary.",
     tone: "from-velvet/80 via-plume to-void",
     accent: "text-brass",
   },
   {
     title: "Cork Elephant",
     material: "Natural cork · Embroidery",
-    blurb: "Raw cork grain meets a hand-stitched elephant — earthy weight with a quiet stare.",
+    blurb:
+      "Raw cork grain meets a hand-stitched elephant — earthy weight with a quiet stare.",
     tone: "from-leather/40 via-ink to-void",
     accent: "text-copper",
   },
   {
     title: "Heart Croc",
     material: "Embossed leather · Gold studs",
-    blurb: "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
+    blurb:
+      "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
     tone: "from-copper/35 via-plume to-void",
     accent: "text-moon",
   },
@@ -61,7 +65,6 @@ function useReveal() {
   return ref;
 }
 
-
 function App() {
   const pageRef = useReveal();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -81,7 +84,10 @@ function App() {
   }
 
   return (
-    <div ref={pageRef} className="relative min-h-screen overflow-x-hidden bg-void text-sand">
+    <div
+      ref={pageRef}
+      className="relative min-h-screen overflow-x-hidden bg-void text-sand"
+    >
       <div
         className="pointer-events-none fixed inset-0 z-0 texture-stars opacity-70"
         aria-hidden="true"
@@ -96,11 +102,11 @@ function App() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-8">
           <a href="#top" className="group flex items-center gap-3">
             <img
-              src={logoImg}
+              src={navLogo}
               alt="OddOwl"
               className="h-10 w-10 rounded-full object-cover ring-1 ring-sand/20 transition duration-500 group-hover:ring-copper/60"
             />
-            <span className="font-display text-sm tracking-[0.28em] text-sand uppercase">
+            <span className="font-display text-md text-sand">
               OddOwl
             </span>
           </a>
@@ -110,17 +116,11 @@ function App() {
               <a
                 key={link.href}
                 href={link.href}
-                className="font-body text-sm tracking-[0.22em] text-mist uppercase transition hover:text-moon"
+                className="font-body text-sm tracking-widest text-mist uppercase transition hover:text-moon"
               >
                 {link.label}
               </a>
             ))}
-            <a
-              href="#contact"
-              className="border border-sand/40 px-5 py-2 font-body text-sm tracking-[0.2em] text-sand uppercase transition hover:border-copper hover:text-copper"
-            >
-              Commission
-            </a>
           </nav>
 
           <button
@@ -152,13 +152,6 @@ function App() {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#contact"
-                className="mt-2 inline-block border border-sand/40 px-5 py-3 text-center font-body tracking-[0.2em] text-sand uppercase"
-                onClick={() => setMenuOpen(false)}
-              >
-                Commission
-              </a>
             </nav>
           </div>
         )}
@@ -170,43 +163,46 @@ function App() {
           <div className="absolute inset-0">
             <img
               src={heroImg}
-              alt="OddOwl handcrafted bags on deep velvet"
-              className="anim-drift h-full w-full object-cover object-[center_35%]"
+              alt="OddOwl Handcrafted Bags On Deep Velvet"
+              className="anim-drift h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-linear-to-t from-void via-void/55 to-plume/30" />
             <div className="absolute inset-0 bg-linear-to-r from-void/70 via-transparent to-void/40" />
           </div>
 
           <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 pt-32 md:px-8 md:pb-24">
-            <p className="anim-rise font-script text-xl text-copper md:text-2xl">
-              Established for the peculiar
+            <p className="anim-rise font-display text-sm text-copper md:text-xl">
+              Established For The Peculiar
             </p>
-            <h1 className="anim-brand mt-3 font-display text-5xl leading-none tracking-[0.18em] text-moon uppercase sm:text-6xl md:text-8xl lg:text-9xl">
+            <h1 className="anim-brand mt-4 font-bold italic font-display text-6xl text-moon sm:text-6xl md:text-8xl lg:text-[200px]">
               OddOwl
             </h1>
             <div className="anim-line mt-5 h-px w-28 bg-brass/70 md:w-40" />
             <p className="anim-rise-delay mt-6 max-w-md font-body text-lg leading-relaxed text-sand/90 md:text-xl">
-              Handcrafted leather and material bags — one-of-one pieces that refuse to look like anyone else's.
+              Handcrafted Leather & Material Bags, Wallets...
             </p>
             <div className="anim-rise-delay mt-10 flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
+                className="bg-leather rounded px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
               >
-                See the work
+                See The Work
               </a>
               <a
                 href="#contact"
-                className="border border-sand/45 px-7 py-3.5 font-body text-sm tracking-[0.22em] text-sand uppercase transition hover:border-brass hover:text-brass"
+                className="border border-leather rounded px-8 py-4 font-body text-md tracking-widest text-moon transition hover:border-copper"
               >
-                Request a custom
+                Request A Custom
               </a>
             </div>
           </div>
         </section>
 
         {/* —— Projects —— */}
-        <section id="projects" className="relative z-10 border-t border-sand/10 py-24 md:py-32">
+        <section
+          id="projects"
+          className="relative z-10 border-t border-sand/10 py-24 md:py-32"
+        >
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="reveal max-w-2xl">
               <p className="font-script text-xl text-copper">Selected pieces</p>
@@ -214,13 +210,14 @@ function App() {
                 Products worth keeping strange
               </h2>
               <p className="mt-5 max-w-lg text-lg leading-relaxed text-mist">
-                Each commission starts as a material, a motif, and a mood — finished only when it feels unmistakably yours.
+                Each commission starts as a material, a motif, and a mood —
+                finished only when it feels unmistakably yours.
                 <Link
                   to="/products"
                   className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
                 >
                   Show All Products
-               </Link>
+                </Link>
               </p>
             </div>
 
@@ -234,10 +231,11 @@ function App() {
                 <div className="absolute inset-0 bg-linear-to-t from-void via-void/40 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-6 md:p-10">
                   <h3 className="mt-1 font-display text-3xl text-moon md:text-5xl">
-                     Featured Collection
+                    Featured Collection
                   </h3>
                   <p className="mt-3 max-w-md text-base leading-relaxed text-sand/85 md:text-lg">
-                    Cat damask, cork elephant, and crimson heart — three custom silhouettes shot on lived-in velvet.
+                    Cat damask, cork elephant, and crimson heart — three custom
+                    silhouettes shot on lived-in velvet.
                   </p>
                 </div>
               </article>
@@ -246,7 +244,7 @@ function App() {
                 {projects.map((project, index) => (
                   <article
                     key={project.title}
-                    className={`reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-gradient-to-br ${project.tone} p-6 md:p-8`}
+                    className={`reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-linear-to-br ${project.tone} p-6 md:p-8`}
                   >
                     <div className="flex items-baseline justify-between gap-4">
                       <h3 className="font-display text-2xl text-moon md:text-3xl">
@@ -256,7 +254,9 @@ function App() {
                         0{index + 1}
                       </span>
                     </div>
-                    <p className={`mt-2 text-sm tracking-[0.16em] uppercase ${project.accent}`}>
+                    <p
+                      className={`mt-2 text-sm tracking-[0.16em] uppercase ${project.accent}`}
+                    >
                       {project.material}
                     </p>
                     <p className="mt-4 text-base leading-relaxed text-sand/80">
@@ -270,15 +270,27 @@ function App() {
         </section>
 
         {/* —— About —— */}
-        <section id="about" className="relative z-10 overflow-hidden py-24 md:py-32">
-          <div className="absolute inset-0 bg-gradient-to-b from-void via-plume/80 to-void" />
-          <div className="absolute -left-24 top-1/4 h-72 w-72 rounded-full bg-velvet/40 blur-3xl" aria-hidden="true" />
-          <div className="absolute -right-16 bottom-1/4 h-64 w-64 rounded-full bg-leather/25 blur-3xl" aria-hidden="true" />
+        <section
+          id="about"
+          className="relative z-10 overflow-hidden py-24 md:py-32"
+        >
+          <div className="absolute inset-0 bg-linear-to-b from-void via-plume/80 to-void" />
+          <div
+            className="absolute -left-24 top-1/4 h-72 w-72 rounded-full bg-velvet/40 blur-3xl"
+            aria-hidden="true"
+          />
+          <div
+            className="absolute -right-16 bottom-1/4 h-64 w-64 rounded-full bg-leather/25 blur-3xl"
+            aria-hidden="true"
+          />
 
           <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-5 md:px-8 lg:grid-cols-12">
             <div className="reveal lg:col-span-5">
               <div className="relative mx-auto w-full max-w-sm">
-                <div className="absolute -inset-3 border border-brass/30" aria-hidden="true" />
+                <div
+                  className="absolute -inset-3 border border-brass/30"
+                  aria-hidden="true"
+                />
                 <img
                   src={logoImg}
                   alt="OddOwl illustrated owl mark"
@@ -294,35 +306,49 @@ function App() {
               </h2>
               <div className="mt-6 h-px w-24 bg-sand/35" />
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-mist md:text-xl">
-                OddOwl builds wallets and bags for people who collect oddities — tarot tables, late-night markets, and quiet rooms full of brass and dried flowers. Nothing here is mass-produced. Every stitch is placed for character, not catalogue uniformity.
+                OddOwl builds wallets and bags for people who collect oddities —
+                tarot tables, late-night markets, and quiet rooms full of brass
+                and dried flowers. Nothing here is mass-produced. Every stitch
+                is placed for character, not catalogue uniformity.
               </p>
               <p className="mt-5 max-w-xl text-lg leading-relaxed text-mist md:text-xl">
-                Bring a sketch, a fabric scrap, or just a feeling. We translate it into hardware, grain, and silhouette — custom, tactile, and slightly unsettling in the best way.
+                Bring a sketch, a fabric scrap, or just a feeling. We translate
+                it into hardware, grain, and silhouette — custom, tactile, and
+                slightly unsettling in the best way.
               </p>
               <ul className="mt-10 grid gap-4 sm:grid-cols-3">
-                {["One-of-one builds", "Custom motifs", "Repair & remake"].map((item) => (
-                  <li
-                    key={item}
-                    className="border-t border-sand/20 pt-3 font-body text-sm tracking-[0.14em] text-sand uppercase"
-                  >
-                    {item}
-                  </li>
-                ))}
+                {["One-of-one builds", "Custom motifs", "Repair & remake"].map(
+                  (item) => (
+                    <li
+                      key={item}
+                      className="border-t border-sand/20 pt-3 font-body text-sm tracking-[0.14em] text-sand uppercase"
+                    >
+                      {item}
+                    </li>
+                  ),
+                )}
               </ul>
             </div>
           </div>
         </section>
 
         {/* —— Contact —— */}
-        <section id="contact" className="relative z-10 border-t border-sand/10 py-24 md:py-32">
+        <section
+          id="contact"
+          className="relative z-10 border-t border-sand/10 py-24 md:py-32"
+        >
           <div className="mx-auto grid max-w-7xl gap-14 px-5 md:px-8 lg:grid-cols-12">
             <div className="reveal lg:col-span-5">
-              <p className="font-script text-xl text-copper">Start something singular</p>
+              <p className="font-script text-xl text-copper">
+                Start something singular
+              </p>
               <h2 className="mt-2 font-display text-4xl text-moon md:text-6xl">
                 Commission a piece
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-mist">
-                Tell us what you're carrying — literally and otherwise. We'll reply with materials, timeline, and a path toward a bag only you will own.
+                Tell us what you're carrying — literally and otherwise. We'll
+                reply with materials, timeline, and a path toward a bag only you
+                will own.
               </p>
               <div className="mt-10 space-y-3 text-sand/80">
                 <p className="font-body tracking-[0.12em] uppercase">
@@ -412,9 +438,9 @@ function App() {
               <div className="flex flex-wrap items-center gap-5 pt-2">
                 <button
                   type="submit"
-                  className="bg-slate px-8 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212_/_0.2)] transition hover:bg-leather"
+                  className="bg-slate px-8 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase transition hover:bg-leather"
                 >
-                  Send inquiry
+                  Send Inquiry
                 </button>
                 {status && (
                   <p className="font-script text-lg text-copper" role="status">
