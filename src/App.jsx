@@ -132,7 +132,7 @@ function App() {
               className={`block h-px w-6 bg-sand transition ${menuOpen ? "translate-y-[3.5px] rotate-45" : ""}`}
             />
             <span
-              className={`block h-px w-6 bg-sand transition ${menuOpen ? "-translate-y-[3.5px] -rotate-45" : ""}`}
+              className={`block h-px w-6 bg-sand transition ${menuOpen ? "translate-y-[-3.5px] -rotate-45" : ""}`}
             />
           </button>
         </div>
@@ -171,8 +171,8 @@ function App() {
               alt="OddOwl handcrafted bags on deep velvet"
               className="anim-drift h-full w-full object-cover object-[center_35%]"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-void via-void/55 to-plume/30" />
-            <div className="absolute inset-0 bg-gradient-to-r from-void/70 via-transparent to-void/40" />
+            <div className="absolute inset-0 bg-linear-to-t from-void via-void/55 to-plume/30" />
+            <div className="absolute inset-0 bg-linear-to-r from-void/70 via-transparent to-void/40" />
           </div>
 
           <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 pt-32 md:px-8 md:pb-24">
@@ -189,7 +189,7 @@ function App() {
             <div className="anim-rise-delay mt-10 flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212_/_0.25)] transition hover:bg-copper"
+                className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
               >
                 See the work
               </a>
@@ -217,13 +217,13 @@ function App() {
             </div>
 
             <div className="mt-16 grid gap-6 lg:grid-cols-12 lg:gap-8">
-              <article className="reveal group relative min-h-[28rem] overflow-hidden lg:col-span-7 lg:min-h-[36rem]">
+              <article className="reveal group relative min-h-122 overflow-hidden lg:col-span-7 lg:min-h-144">
                 <img
                   src={heroImg}
                   alt="OddOwl custom bag trio on purple velvet"
                   className="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-[1.04]"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-void via-void/40 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-void via-void/40 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-6 md:p-10">
                   <p className="font-script text-lg text-brass">Featured suite</p>
                   <h3 className="mt-1 font-display text-3xl text-moon md:text-5xl">
