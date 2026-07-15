@@ -117,7 +117,7 @@ function App() {
               href="#contact"
               className="border border-sand/40 px-5 py-2 font-body text-sm tracking-[0.2em] text-sand uppercase transition hover:border-copper hover:text-copper"
             >
-              Commission
+              Contact
             </a>
           </nav>
 
@@ -152,10 +152,10 @@ function App() {
               ))}
               <a
                 href="#contact"
-                className="mt-2 inline-block border border-sand/40 px-5 py-3 text-center font-body tracking-[0.2em] text-sand uppercase"
+                className="mt-2 inline-block border border-leather px-5 py-3 text-center font-body tracking-[0.2em] text-leather uppercase"
                 onClick={() => setMenuOpen(false)}
               >
-                Commission
+                Contact
               </a>
             </nav>
           </div>
@@ -168,36 +168,36 @@ function App() {
           <div className="absolute inset-0">
             <img
               src={heroImg}
-              alt="OddOwl handcrafted bags on deep velvet"
-              className="anim-drift h-full w-full object-cover object-[center_35%]"
+              alt="OddOwl Handcrafted Bags On Deep Velvet"
+              className="anim-drift h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-linear-to-t from-void via-void/55 to-plume/30" />
             <div className="absolute inset-0 bg-linear-to-r from-void/70 via-transparent to-void/40" />
           </div>
 
           <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-16 pt-32 md:px-8 md:pb-24">
-            <p className="anim-rise font-script text-xl text-copper md:text-2xl">
-              Established for the peculiar
+            <p className="anim-rise font-script text-sm text-copper md:text-xl">
+              Established For The Peculiar
             </p>
-            <h1 className="anim-brand mt-3 font-display text-5xl leading-none tracking-[0.18em] text-moon uppercase sm:text-6xl md:text-8xl lg:text-9xl">
+            <h1 className="anim-brand mt-4 font-bold font-display text-6xl text-moon sm:text-6xl md:text-8xl lg:text-[200px]">
               OddOwl
             </h1>
             <div className="anim-line mt-5 h-px w-28 bg-brass/70 md:w-40" />
             <p className="anim-rise-delay mt-6 max-w-md font-body text-lg leading-relaxed text-sand/90 md:text-xl">
-              Handcrafted leather and material bags — one-of-one pieces that refuse to look like anyone else's.
+              Handcrafted Leather & Material Bags, Wallets...
             </p>
             <div className="anim-rise-delay mt-10 flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
+                className="bg-leather px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
               >
-                See the work
+                See The Work
               </a>
               <a
                 href="#contact"
-                className="border border-sand/45 px-7 py-3.5 font-body text-sm tracking-[0.22em] text-sand uppercase transition hover:border-brass hover:text-brass"
+                className="border border-leather px-8 py-4 font-body text-md tracking-widest text-moon transition hover:border-copper"
               >
-                Request a custom
+                Request A Custom
               </a>
             </div>
           </div>
