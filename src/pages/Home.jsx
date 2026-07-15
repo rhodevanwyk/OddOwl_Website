@@ -215,7 +215,7 @@ function App() {
                   Products worth keeping strange
                 </h2>
                 <p className="mt-5 max-w-lg text-lg leading-relaxed text-mist">
-                  Each commission starts as a material, a motif, and a mood —
+                  Each commission starts as a material, a motif, and a mood
                   finished only when it feels unmistakably yours.
                 </p>
               </div>
