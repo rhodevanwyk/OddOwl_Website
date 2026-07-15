@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@import url('https://googleapis.com');
 
 @theme {
-  --font-display: "Goudy Bookletter 1911", Georgia, serif;
-  --font-script: "Petit Formal Script", cursive;
-  --font-body: "Bellefair", Georgia, serif;
+  --font-display: "Cormorant Garamond", serif;
+  --font-script: "Cormorant Garamond", sans-serif;
+  --font-body: "Poppins", sans-serif;
 
   --color-void: #0a090c;
   --color-ink: #12101a;
@@ -40,6 +41,7 @@
 @layer utilities {
   .font-display {
     font-family: var(--font-display);
+    font-style: italic;
   }
 
   .font-script {
@@ -99,12 +101,10 @@
   @keyframes brand-in {
     from {
       opacity: 0;
-      letter-spacing: 0.35em;
       transform: translateY(0.5rem);
     }
     to {
       opacity: 1;
-      letter-spacing: 0.18em;
       transform: translateY(0);
     }
   }
@@ -140,7 +140,7 @@
   }
 
   .anim-brand {
-    animation: brand-in 1.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation: brand-in 1.4s both;
   }
 
   .anim-rise {
