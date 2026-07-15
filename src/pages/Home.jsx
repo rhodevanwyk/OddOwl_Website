@@ -13,7 +13,8 @@ const navLinks = [
 ];
 
 const projects = [
-  {
+  { 
+    image: product1,
     title: "Velvet Cat",
     material: "Damask · Brass snap",
     blurb:
@@ -231,13 +232,14 @@ function App() {
                     key={project.title}
                     className={`reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden border border-sand/10 bg-linear-to-br ${project.tone} p-6 md:p-8`}
                   >
+                   <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-64 object-cover rounded-lg"
+                     />
                     <div className="flex items-baseline justify-between gap-3">
                       <h3 className="font-display text-2xl text-moon md:text-3xl">
-                         <img
-                          src={product1}
-                          alt="OddOwl"
-                          className="h-10 w-10 rounded-full object-cover ring-1 ring-sand/20 transition duration-500 group-hover:ring-copper/60"
-                          />
+
                         {project.title}
                       </h3>
                       <span className="font-body text-xs tracking-[0.2em] text-mist uppercase">
