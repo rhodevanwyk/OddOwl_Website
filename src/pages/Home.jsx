@@ -77,8 +77,8 @@ function App() {
     const name = String(data.get("name") || "").trim();
     setStatus(
       name
-        ? `Thanks, ${name}. We'll write back about your custom piece.`
-        : "Thanks — we'll write back about your custom piece.",
+        ? `Thanks, ${name}! We'll Write Back About Your Custom Piece.`
+        : "Thanks! We'll Write Back About Your Custom Piece.",
     );
     form.reset();
   }
@@ -203,8 +203,10 @@ function App() {
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="flex justify-start">
               <div className="reveal w-full">
-                  <p className="font-display  text-xl text-copper">Selected pieces</p>
-      
+                <p className="font-display  text-xl text-copper">
+                  Selected pieces
+                </p>
+
                 <h2 className="mt-2 font-display text-4xl tracking-wide text-moon md:text-6xl">
                   Products worth keeping strange
                 </h2>
@@ -214,16 +216,15 @@ function App() {
                 </p>
               </div>
             </div>
-              <div className="mt-5 flex justify-start">
-                  <Link
-                  to="/products"
-                  className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
-                  >
-                  Show All Products
-                  </Link>
-              </div>
+            <div className="mt-5 flex justify-start">
+              <Link
+                to="/products"
+                className="bg-leather px-7 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase shadow-[inset_0_0_0_1px_rgb(232_224_212/0.25)] transition hover:bg-copper"
+              >
+                Show All Products
+              </Link>
+            </div>
             <div className="mt-16 flex gap-6 lg:gap-8">
-  
               <div className=" flex gap-6 lg:col-span-7">
                 {projects.map((project, index) => (
                   <article
@@ -273,46 +274,34 @@ function App() {
             <div className="reveal lg:col-span-5">
               <div className="relative mx-auto w-full max-w-sm">
                 <div
-                  className="absolute -inset-3 border border-brass/30"
+                  className="absolute -inset-3 border rounded border-brass/30"
                   aria-hidden="true"
                 />
                 <img
                   src={logoImg}
-                  alt="OddOwl illustrated owl mark"
-                  className="relative w-full bg-void object-cover"
+                  alt="OddOwl Illustrated Owl Mark"
+                  className="relative w-full bg-void rounded object-cover"
                 />
               </div>
             </div>
 
             <div className="reveal reveal-delay-1 lg:col-span-7">
-              <p className="font-script text-xl text-copper">The odd craft</p>
+              <p className="text-xl text-copper font-display">The Odd Craft</p>
               <h2 className="mt-2 font-display text-4xl leading-tight text-moon md:text-6xl">
-                Leather, cork, and materials that misbehave beautifully
+                All About <span className="italic">OddOwl</span>
               </h2>
               <div className="mt-6 h-px w-24 bg-sand/35" />
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-mist md:text-xl">
-                OddOwl builds wallets and bags for people who collect oddities —
+                OddOwl builds wallets and bags for people who collect oddities,
                 tarot tables, late-night markets, and quiet rooms full of brass
                 and dried flowers. Nothing here is mass-produced. Every stitch
                 is placed for character, not catalogue uniformity.
               </p>
               <p className="mt-5 max-w-xl text-lg leading-relaxed text-mist md:text-xl">
                 Bring a sketch, a fabric scrap, or just a feeling. We translate
-                it into hardware, grain, and silhouette — custom, tactile, and
+                it into hardware, grain, and silhouette - custom, tactile, and
                 slightly unsettling in the best way.
               </p>
-              <ul className="mt-10 grid gap-4 sm:grid-cols-3">
-                {["One-of-one builds", "Custom motifs", "Repair & remake"].map(
-                  (item) => (
-                    <li
-                      key={item}
-                      className="border-t border-sand/20 pt-3 font-body text-sm tracking-[0.14em] text-sand uppercase"
-                    >
-                      {item}
-                    </li>
-                  ),
-                )}
-              </ul>
             </div>
           </div>
         </section>
@@ -324,27 +313,23 @@ function App() {
         >
           <div className="mx-auto grid max-w-7xl gap-14 px-5 md:px-8 lg:grid-cols-12">
             <div className="reveal lg:col-span-5">
-              <p className="font-script text-xl text-copper">
-                Start something singular
+              <p className="font-display text-xl text-copper">
+                Start Something Awesome
               </p>
               <h2 className="mt-2 font-display text-4xl text-moon md:text-6xl">
-                Commission a piece
+                Commission A Piece / Ask Something
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-mist">
-                Tell us what you're carrying — literally and otherwise. We'll
+                Tell us what you're carrying...literally and otherwise. We'll
                 reply with materials, timeline, and a path toward a bag only you
                 will own.
               </p>
               <div className="mt-10 space-y-3 text-sand/80">
-                <p className="font-body tracking-[0.12em] uppercase">
-                  <span className="text-mist">Studio · </span>
-                  By appointment
-                </p>
                 <a
                   href="mailto:hello@oddowl.studio"
                   className="inline-block border-b border-brass/50 pb-0.5 text-lg text-moon transition hover:border-copper hover:text-copper"
                 >
-                  hello@oddowl.studio
+                  info@oddowl.co.za
                 </a>
               </div>
             </div>
@@ -354,9 +339,9 @@ function App() {
               className="reveal reveal-delay-1 space-y-6 lg:col-span-7"
               noValidate
             >
-              <div className="grid gap-6 sm:grid-cols-2">
+              <div className="grid gap-8 sm:grid-cols-2">
                 <label className="block">
-                  <span className="mb-2 block font-body text-xs tracking-[0.2em] text-mist uppercase">
+                  <span className="mb-2 block font-body text-xs tracking-widest text-mist uppercase">
                     Name
                   </span>
                   <input
@@ -365,11 +350,11 @@ function App() {
                     required
                     autoComplete="name"
                     className="w-full border-0 border-b border-sand/25 bg-transparent py-3 font-body text-lg text-moon outline-none transition placeholder:text-mist/40 focus:border-copper"
-                    placeholder="What should we call you?"
+                    placeholder="What Should We Call You?"
                   />
                 </label>
                 <label className="block">
-                  <span className="mb-2 block font-body text-xs tracking-[0.2em] text-mist uppercase">
+                  <span className="mb-2 block font-body text-xs tracking-widest text-mist uppercase">
                     Email
                   </span>
                   <input
@@ -384,8 +369,8 @@ function App() {
               </div>
 
               <label className="block">
-                <span className="mb-2 block font-body text-xs tracking-[0.2em] text-mist uppercase">
-                  Piece in mind
+                <span className="mb-2 block font-body text-xs tracking-widest text-mist uppercase">
+                  Piece In Mind / Question
                 </span>
                 <select
                   name="piece"
@@ -393,42 +378,48 @@ function App() {
                   defaultValue="bag"
                 >
                   <option value="bag" className="bg-ink">
-                    Custom bag
+                    Bag
+                  </option>
+                  <option value="bag" className="bg-ink">
+                    Custom Bag
                   </option>
                   <option value="wallet" className="bg-ink">
                     Wallet
                   </option>
                   <option value="both" className="bg-ink">
-                    Bag & wallet set
+                    Bag & Wallet
                   </option>
                   <option value="other" className="bg-ink">
-                    Something stranger
+                    Something Stranger...
+                  </option>
+                  <option value="other" className="bg-ink">
+                    Just Asking A Question
                   </option>
                 </select>
               </label>
 
               <label className="block">
-                <span className="mb-2 block font-body text-xs tracking-[0.2em] text-mist uppercase">
-                  Vision
+                <span className="mb-2 block text-mist font-body text-xs tracking-widest uppercase">
+                  Your Input
                 </span>
                 <textarea
                   name="vision"
                   rows={4}
                   required
                   className="w-full resize-y border-0 border-b border-sand/25 bg-transparent py-3 font-body text-lg text-moon outline-none transition placeholder:text-mist/40 focus:border-copper"
-                  placeholder="Materials, motifs, size, mood…"
+                  placeholder="Unload It All Here..."
                 />
               </label>
 
-              <div className="flex flex-wrap items-center gap-5 pt-2">
+              <div className="flex flex-col items-start gap-5 pt-2">
                 <button
                   type="submit"
-                  className="bg-slate px-8 py-3.5 font-body text-sm tracking-[0.22em] text-moon uppercase transition hover:bg-leather"
+                  className="bg-leather rounded uppercase px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
                 >
                   Send Inquiry
                 </button>
                 {status && (
-                  <p className="font-script text-lg text-copper" role="status">
+                  <p className="font-body text-md text-mist" role="status">
                     {status}
                   </p>
                 )}
@@ -439,41 +430,10 @@ function App() {
       </main>
 
       {/* —— Footer —— */}
-      <footer className="relative z-10 border-t border-sand/10">
-        <div className="mx-auto flex max-w-7xl flex-col gap-10 px-5 py-14 md:flex-row md:items-end md:justify-between md:px-8">
-          <div>
-            <div className="flex items-center gap-3">
-              <img
-                src={logoImg}
-                alt=""
-                className="h-8 w-8 rounded-full object-cover"
-                aria-hidden="true"
-              />
-              <p className="font-display text-2xl tracking-[0.2em] text-moon uppercase">
-                OddOwl
-              </p>
-            </div>
-            <p className="mt-3 max-w-xs font-script text-lg text-mist">
-              Handcrafted for the peculiar few
-            </p>
-          </div>
-
-          <div className="flex flex-wrap gap-8 font-body text-sm tracking-[0.18em] text-mist uppercase">
-            <a href="#projects" className="transition hover:text-moon">
-              Projects
-            </a>
-            <a href="#about" className="transition hover:text-moon">
-              About
-            </a>
-            <a href="#contact" className="transition hover:text-moon">
-              Contact
-            </a>
-          </div>
-
-          <p className="font-body text-sm tracking-[0.12em] text-mist/70">
-            © {new Date().getFullYear()} OddOwl · All rights reserved
+      <footer className="relative z-10 border-t border-sand/10 flex py-6 px-10">
+          <p className="font-body text-xs text-mist/70">
+            © {new Date().getFullYear()} OddOwl, All Rights Reserved
           </p>
-        </div>
       </footer>
     </div>
   );
