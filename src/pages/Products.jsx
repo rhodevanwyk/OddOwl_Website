@@ -20,7 +20,7 @@ const products = [
       "Baroque blue scrollwork wrapped around a silver feline silhouette, made for nights that refuse ordinary.",
     tone: "from-from/80 via-plume to-void",
     accent: "text-copper",
-    price: "R120",
+    price: "R120.00",
     amount: 120,
   },
   {
@@ -31,7 +31,7 @@ const products = [
       "Raw cork grain meets a hand-stitched elephant, earthy weight with a quiet stare.",
     tone: "from-leather/40 via-ink to-void",
     accent: "text-copper",
-    price: "R150",
+    price: "R150.00",
     amount: 150,
   },
   {
@@ -42,7 +42,7 @@ const products = [
       "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
     tone: "from-copper/35 via-from to-void",
     accent: "text-copper",
-    price: "R350",
+    price: "R350.00",
     amount: 350,
   },
  {
@@ -53,7 +53,7 @@ const products = [
     "A bold fusion of midnight leather and crimson scale detailing, stitched by hand for those who appreciate craftsmanship with a daring edge.",
   tone: "from-void/80 via-crimson to-obsidian",
   accent: "text-red-400",
-  price: "R350",
+  price: "R350.00",
   amount: 350,
 },
 {
@@ -64,7 +64,7 @@ const products = [
     "Clean geometric lines meet soft ivory textures in a timeless circular silhouette, designed to bring understated elegance to every outfit.",
   tone: "from-slate/80 via-stone to-void",
   accent: "text-stone-300",
-  price: "R520",
+  price: "R520.00",
   amount: 520,
 },
 {
@@ -75,7 +75,7 @@ const products = [
     "Soft woodland charm embroidered onto natural cork, creating a playful handmade companion inspired by gentle forest adventures.",
   tone: "from-copper/80 via-sand to-forest",
   accent: "text-amber-400",
-  price: "R450",
+  price: "R450.00",
   amount: 450,
 },
   {
@@ -86,7 +86,7 @@ const products = [
       "A compact wallet with an owl silhouette pressed into black calf and sealed with silver rivets.",
     tone: "from-void via-plume to-ink",
     accent: "text-copper",
-    price: "R190",
+    price: "R190.00",
     amount: 190,
   },
   {
@@ -97,7 +97,7 @@ const products = [
       "Petal-soft fabric over a structured frame, finished with rose-toned hardware that refuses to whisper.",
     tone: "from-leather/30 via-plume to-void",
     accent: "text-copper",
-    price: "R360",
+    price: "R360.00",
     amount: 360,
   },
   {
@@ -108,7 +108,7 @@ const products = [
       "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
     tone: "from-velvet/60 via-from to-void",
     accent: "text-copper",
-    price: "R480",
+    price: "R480.00",
     amount: 480,
   },
 ];
@@ -153,7 +153,7 @@ function buildWhatsAppMessage(cart) {
     "",
     ...lines,
     "",
-    `Total: R${total}`,
+    `Total: R${total}.00`,
     "",
     "Looking forward to hearing from you!",
   ].join("\n");
@@ -347,7 +347,7 @@ function Products() {
                           className="h-20 w-20 rounded object-cover"
                         />
                         <div>
-                          <h3 className="font-display text-2xl text-moon">
+                          <h3 className="font-display italic text-2xl text-moon">
                             {item.title}
                           </h3>
                           <p className="mt-1 text-sm tracking-widest text-copper uppercase">
@@ -372,8 +372,8 @@ function Products() {
                 </ul>
 
                 <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
-                  <p className="font-display text-2xl text-moon md:text-3xl">
-                    Total <span className="text-copper">R{cartTotal}</span>
+                  <p className="font-body text-2xl text-moon md:text-3xl">
+                    Your Total: <span className="text-copper font-display text-4xl">R {cartTotal}.00</span>
                   </p>
                   <button
                     type="button"
@@ -383,10 +383,6 @@ function Products() {
                     Proceed With Order
                   </button>
                 </div>
-
-                <p className="font-body text-sm text-mist/70">
-                  Opens WhatsApp To +27 76 851 9561 With Your Selected Pieces.
-                </p>
               </div>
             )}
           </div>
