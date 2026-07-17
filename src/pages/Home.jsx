@@ -334,7 +334,7 @@ function App() {
                 Commission A Piece 
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-mist">
-                Are you in search of something new, unique, something of your taste? If so, please fill the form so that we can discuss you perfect custom piece. Otherwise please contact us via the email below for an questions you might have.
+                Are you in search of something new, unique, something of your taste? If so, please fill the form so that we can discuss you perfect custom piece. Otherwise please contact us via the email below for any questions you might have :)
               </p>
               <div className="mt-10 space-y-3 text-sand/80">
                 <a
