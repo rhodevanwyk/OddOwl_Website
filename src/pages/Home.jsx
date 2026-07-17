@@ -338,7 +338,7 @@ function App() {
               </p>
               <div className="mt-10 space-y-3 text-sand/80">
                 <a
-                  href="mailto:hello@oddowl.studio"
+                  href="mailto:info@oddowl.co.za"
                   className="inline-block border-b border-brass/50 pb-0.5 text-lg text-moon transition hover:border-copper hover:text-copper"
                 >
                   info@oddowl.co.za
