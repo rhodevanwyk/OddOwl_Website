@@ -51,7 +51,7 @@ const products = [
   material: "Genuine Leather · Brass Snap",
   blurb:
     "A bold fusion of midnight leather and crimson scale detailing, stitched by hand for those who appreciate craftsmanship with a daring edge.",
-  tone: "from-void/80 via-crimson to-obsidian",
+  tone: "from-from/80 via-plume to-void",
   accent: "text-red-400",
   price: "R350.00",
   amount: 350,
@@ -62,7 +62,7 @@ const products = [
   material: "Leather · Metal Chain",
   blurb:
     "Clean geometric lines meet soft ivory textures in a timeless circular silhouette, designed to bring understated elegance to every outfit.",
-  tone: "from-slate/80 via-stone to-void",
+  tone: "from-leather/40 via-ink to-void",
   accent: "text-stone-300",
   price: "R520.00",
   amount: 520,
@@ -73,7 +73,7 @@ const products = [
   material: "Natural Cork · Brass Snap",
   blurb:
     "Soft woodland charm embroidered onto natural cork, creating a playful handmade companion inspired by gentle forest adventures.",
-  tone: "from-copper/80 via-sand to-forest",
+  tone: "from-copper/35 via-from to-void",
   accent: "text-amber-400",
   price: "R450.00",
   amount: 450,
@@ -166,8 +166,9 @@ function ProductCard({ product, index, inCart, onAdd, onRemove }) {
 
   return (
     <article
-      className={`reveal ${delayClass} relative overflow-hidden rounded bg-linear-to-br ${product.tone} p-6 md:p-8`}
+  className={`reveal ${delayClass} relative flex flex-col overflow-hidden rounded bg-linear-to-br ${product.tone} p-6 md:p-8`}
     >
+      <div>
       <img
         src={product.image}
         alt={product.title}
@@ -187,10 +188,11 @@ function ProductCard({ product, index, inCart, onAdd, onRemove }) {
       <p className="mt-4 text-base leading-relaxed text-sand/80">
         {product.blurb}
       </p>
+    </div>
       <button
         type="button"
         onClick={() => (inCart ? onRemove(product.title) : onAdd(product))}
-        className={`mt-6 w-full rounded px-6 py-3 font-body text-sm tracking-widest uppercase transition ${
+        className={`mt-auto w-full rounded px-6 py-3 font-body text-sm tracking-widest uppercase transition ${
           inCart
             ? "border border-copper text-copper hover:bg-copper/10"
             : "bg-leather text-moon hover:bg-copper"
