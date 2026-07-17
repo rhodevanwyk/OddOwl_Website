@@ -4,6 +4,9 @@ import navLogo from "../assets/favicon.png";
 import product1 from "../assets/product1.png";
 import product2 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
+import product4 from "../assets/product4.png";
+import product5 from "../assets/product5.png";
+import product6 from "../assets/product6.png";
 import "../index.css";
 
 const WHATSAPP_NUMBER = "27768519561";
@@ -42,39 +45,39 @@ const products = [
     price: "R350",
     amount: 350,
   },
-  {
-    image: product1,
-    title: "Moss Raven",
-    material: "Suede · Bone clasp",
-    blurb:
-      "Deep forest green suede folded into a soft pouch, finished with a carved bone clasp.",
-    tone: "from-velvet/50 via-plume to-void",
-    accent: "text-copper",
-    price: "R280",
-    amount: 280,
-  },
-  {
-    image: product3,
-    title: "Gilded Moth",
-    material: "Silk lining · Brass chain",
-    blurb:
-      "A night-sky clutch with moth embroidery and a brass chain meant to catch candlelight.",
-    tone: "from-ink via-plume to-void",
-    accent: "text-copper",
-    price: "R420",
-    amount: 420,
-  },
-  {
-    image: product2,
-    title: "Ash Fox",
-    material: "Vegetable leather · Waxed thread",
-    blurb:
-      "Smoke-grey leather cut slim for daily carry, stitched in waxed thread that ages with you.",
-    tone: "from-slate/40 via-ink to-void",
-    accent: "text-copper",
-    price: "R310",
-    amount: 310,
-  },
+ {
+  image: product4,
+  title: "Crimson Scale Wallet",
+  material: "Genuine Leather · Brass Snap",
+  blurb:
+    "A bold fusion of midnight leather and crimson scale detailing, stitched by hand for those who appreciate craftsmanship with a daring edge.",
+  tone: "from-void/80 via-crimson to-obsidian",
+  accent: "text-red-400",
+  price: "R350",
+  amount: 350,
+},
+{
+  image: product5,
+  title: "Moonstone Circle Bag",
+  material: "Leather · Metal Chain",
+  blurb:
+    "Clean geometric lines meet soft ivory textures in a timeless circular silhouette, designed to bring understated elegance to every outfit.",
+  tone: "from-slate/80 via-stone to-void",
+  accent: "text-stone-300",
+  price: "R520",
+  amount: 520,
+},
+{
+  image: product6,
+  title: "Cork Bunny Crossbody",
+  material: "Natural Cork · Brass Snap",
+  blurb:
+    "Soft woodland charm embroidered onto natural cork, creating a playful handmade companion inspired by gentle forest adventures.",
+  tone: "from-copper/80 via-sand to-forest",
+  accent: "text-amber-400",
+  price: "R450",
+  amount: 450,
+},
   {
     image: product2,
     title: "Obsidian Owl",
