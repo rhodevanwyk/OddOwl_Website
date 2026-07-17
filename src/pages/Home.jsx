@@ -331,12 +331,10 @@ function App() {
                 Start Something Awesome
               </p>
               <h2 className="mt-2 font-display text-4xl text-moon md:text-6xl">
-                Commission A Piece / Ask Something
+                Commission A Piece 
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-mist">
-                Tell us what you're carrying...literally and otherwise. We'll
-                reply with materials, timeline, and a path toward a bag only you
-                will own.
+                Are you in search of something new, unique, something of your taste? If so, please fill the form so that we can discuss you perfect custom piece. Otherwise please contact us via the email below for an questions you might have.
               </p>
               <div className="mt-10 space-y-3 text-sand/80">
                 <a
@@ -384,7 +382,7 @@ function App() {
 
               <label className="block">
                 <span className="mb-2 block font-body text-xs tracking-widest text-mist uppercase">
-                  Piece In Mind / Question
+                  Piece In Mind 
                 </span>
                 <select
                   name="piece"
@@ -405,9 +403,6 @@ function App() {
                   </option>
                   <option value="other" className="bg-ink">
                     Something Stranger...
-                  </option>
-                  <option value="other" className="bg-ink">
-                    Just Asking A Question
                   </option>
                 </select>
               </label>
