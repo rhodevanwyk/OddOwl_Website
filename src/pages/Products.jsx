@@ -319,7 +319,7 @@ function Products() {
                 Order Cart
               </h2>
               <div className="mt-5 h-px w-28 bg-brass/70" />
-              <p className="mt-5 max-w-xl text-lg text-mist">
+              <p className="mt-5 w-full text-lg text-mist">
                 Review the pieces you have chosen. When you are ready, proceed
                 and WhatsApp will open with a ready-made message for OddOwl.
               </p>
