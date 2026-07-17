@@ -185,14 +185,14 @@ function ProductCard({ product, index, inCart, onAdd, onRemove }) {
       <p className={`mt-4 text-sm tracking-widest uppercase ${product.accent}`}>
         {product.material}
       </p>
-      <p className="mt-4 text-base leading-relaxed text-sand/80">
+      <p className="mt-4 mb-4 text-base leading-relaxed text-sand/80">
         {product.blurb}
       </p>
     </div>
       <button
         type="button"
         onClick={() => (inCart ? onRemove(product.title) : onAdd(product))}
-        className={`mt-auto w-full rounded px-6 py-3 font-body text-sm tracking-widest uppercase transition ${
+        className={`mt-auto w-full rounded px-6 py-3 p-4 font-body text-sm tracking-widest uppercase transition ${
           inCart
             ? "border border-copper text-copper hover:bg-copper/10"
             : "bg-leather text-moon hover:bg-copper"
