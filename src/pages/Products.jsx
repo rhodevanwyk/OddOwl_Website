@@ -4,6 +4,9 @@ import navLogo from "../assets/favicon.png";
 import product1 from "../assets/product1.png";
 import product2 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
+import product4 from "../assets/product3.png";
+import product5 from "../assets/product3.png";
+import product6 from "../assets/product3.png";
 import "../index.css";
 
 const WHATSAPP_NUMBER = "27768519561";
