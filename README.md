@@ -1,16 +1,38 @@
-# React + Vite
+# OddOwl
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A polished, boutique-style web experience for OddOwl, created as a freelance collaboration project for Shirley, the owner and creative force behind the brand.
 
-Currently, two official plugins are available:
+## About this project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+OddOwl is a handcrafted brand focused on distinctive bags, wallets, and accessories with a bold, artistic edge. This project was designed to bring that identity online through a refined and memorable website experience that feels elevated, personal, and visually expressive.
 
-## React Compiler
+## What this site includes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- A striking landing page with an editorial, luxury-inspired feel
+- A curated product showcase for OddOwl’s handcrafted pieces
+- A clean, responsive layout for mobile and desktop viewing
+- A simple order-inquiry experience designed to encourage customer connection
 
-## Expanding the ESLint configuration
+## Project goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This website was built to:
+
+- showcase OddOwl’s unique aesthetic and craftsmanship
+- make the brand feel more accessible and memorable online
+- create a professional digital presence for Shirley’s business
+- support a modern, elegant presentation for custom and handmade pieces
+
+## Tech stack
+
+- React
+- Vite
+- React Router
+- Custom styling with a modern visual direction
+
+## Notes
+
+This project was created as a freelance collaboration and is tailored to reflect the personality, character, and artistic feel of OddOwl.
+
+## Status
+
+Freelance collaboration project for OddOwl
