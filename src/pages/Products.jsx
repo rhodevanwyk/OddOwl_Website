@@ -52,7 +52,7 @@ const products = [
   blurb:
     "A bold fusion of midnight leather and crimson scale detailing, stitched by hand for those who appreciate craftsmanship with a daring edge.",
   tone: "from-from/80 via-plume to-void",
-  accent: "text-red-400",
+  accent: "text-copper",
   price: "R350.00",
   amount: 350,
 },
@@ -63,7 +63,7 @@ const products = [
   blurb:
     "Clean geometric lines meet soft ivory textures in a timeless circular silhouette, designed to bring understated elegance to every outfit.",
   tone: "from-leather/40 via-ink to-void",
-  accent: "text-stone-300",
+  accent: "text-copper",
   price: "R520.00",
   amount: 520,
 },
@@ -74,7 +74,7 @@ const products = [
   blurb:
     "Soft woodland charm embroidered onto natural cork, creating a playful handmade companion inspired by gentle forest adventures.",
   tone: "from-copper/35 via-from to-void",
-  accent: "text-amber-400",
+  accent: "text-copper",
   price: "R450.00",
   amount: 450,
 },
