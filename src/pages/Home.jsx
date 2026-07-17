@@ -152,7 +152,7 @@ function App() {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="font-display text-2xl tracking-wide text-sand"
+                  className="font-body tracking-widest uppercase text-2xl text-sand"
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.label}
@@ -212,14 +212,14 @@ function App() {
           <div className="mx-auto max-w-7xl px-5 md:px-8">
             <div className="flex justify-start">
               <div className="reveal w-full">
-                <p className="font-display  text-xl text-copper">
+                <p className="font-display text-lg text-copper sm:text-xl">
                   Selected Pieces
                 </p>
 
-                <h2 className="mt-2 font-display text-4xl tracking-wide text-moon md:text-6xl">
+                <h2 className="mt-2 font-display text-3xl tracking-wide text-moon sm:text-4xl md:text-6xl">
                   Products Worth Keeping Strange
                 </h2>
-                <p className="mt-5 text-lg text-mist">
+                <p className="mt-5 text-base text-mist sm:text-lg">
                   Each commission starts as a material, a motif, and a mood
                   finished only when it feels unmistakably yours.
                 </p>
@@ -228,43 +228,40 @@ function App() {
             <div className="mt-10 flex justify-start">
               <Link
                 to="/products"
-                className="bg-leather rounded uppercase px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
+                className="inline-flex items-center justify-center rounded bg-leather px-8 py-4 font-body text-sm uppercase tracking-widest text-moon transition hover:bg-copper sm:text-md"
               >
                 Show All Products
               </Link>
             </div>
-            <div className="mt-16 flex gap-6 lg:gap-8">
-              <div className=" flex gap-6 lg:col-span-7">
-                {products.map((project, index) => (
-                  <article
-                    key={project.title}
-                    className={`flex-1 reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative rounded overflow-hidden bg-linear-to-br ${project.tone} p-6 md:p-8`}
-                   >
-                   <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full h-80 object-cover rounded-lg pb-8"
-                     />
-                    <div className="flex items-baseline justify-between gap-3">
-                      <h3 className="font-display text-2xl text-moon md:text-3xl">
-
-                        {project.title}
-                      </h3>
-                      <span className="font-body text-xs tracking-widest text-mist uppercase">
-                          {project.price}
-                      </span>
-                    </div>
-                    <p
-                      className={`mt-4 text-sm tracking-widest uppercase ${project.accent}`}
-                    >
-                      {project.material}
-                    </p>
-                    <p className="mt-4 text-base leading-relaxed text-sand/80">
-                      {project.blurb}
-                    </p>
-                  </article>
-                ))}
-              </div>
+            <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+              {products.map((project, index) => (
+                <article
+                  key={project.title}
+                  className={`reveal flex h-full flex-col ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative overflow-hidden rounded bg-linear-to-br ${project.tone} p-5 sm:p-6 md:p-8`}
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="mb-6 h-56 w-full rounded-lg object-cover sm:h-64 md:h-80"
+                  />
+                  <div className="flex items-baseline justify-between gap-3">
+                    <h3 className="font-display text-xl text-moon sm:text-2xl md:text-3xl">
+                      {project.title}
+                    </h3>
+                    <span className="font-body text-[11px] uppercase tracking-widest text-mist">
+                      {project.price}
+                    </span>
+                  </div>
+                  <p
+                    className={`mt-4 text-sm uppercase tracking-widest ${project.accent}`}
+                  >
+                    {project.material}
+                  </p>
+                  <p className="mt-4 text-sm leading-relaxed text-sand/80 sm:text-base">
+                    {project.blurb}
+                  </p>
+                </article>
+              ))}
             </div>
           </div>
         </section>

@@ -194,7 +194,7 @@ function ProductCard({ product, index, inCart, onAdd, onRemove }) {
         onClick={() => (inCart ? onRemove(product.title) : onAdd(product))}
         className={`mt-auto w-full rounded px-6 py-3 p-4 font-body text-sm tracking-widest uppercase transition ${
           inCart
-            ? "border border-copper text-copper hover:bg-copper/10"
+            ? "border border-leather hover:border-copper"
             : "bg-leather text-moon hover:bg-copper"
         }`}
       >
