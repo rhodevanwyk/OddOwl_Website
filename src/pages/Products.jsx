@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import navLogo from "../assets/favicon.png";
 import product1 from "../assets/product1.png";
@@ -163,6 +163,10 @@ function ProductCard({ product, index }) {
 function Products() {
   const pageRef = useReveal();
 
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div
       ref={pageRef}
@@ -203,8 +207,8 @@ function Products() {
               All Products
             </h1>
             <div className="mt-5 h-px w-28 bg-brass/70" />
-            <p className="mt-5 max-w-xl text-lg text-mist">
-              More peculiar pieces from the bench — each one a material, a motif,
+            <p className="mt-5 w-full text-lg text-mist">
+              More peculiar pieces from the bench, each one a material, a motif,
               and a mood finished only when it feels unmistakably yours.
             </p>
           </div>
