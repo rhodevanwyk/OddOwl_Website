@@ -9,12 +9,12 @@ import product2 from '../assets/product2.png';
 import product3 from '../assets/product3.png'; 
 
 const navLinks = [
-  { href: "#projects", label: "Projects" },
+  { href: "#products", label: "Products" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
 ];
 
-const projects = [
+const products = [
   { 
     image: product2,
     title: "Velvet Cat",
@@ -189,7 +189,7 @@ function App() {
             </p>
             <div className="anim-rise-delay mt-10 flex flex-wrap gap-4">
               <a
-                href="#projects"
+                href="#products"
                 className="bg-leather rounded uppercase px-8 py-4 font-body tracking-widest text-md text-moon transition hover:bg-copper"
               >
                 See The Work
@@ -204,9 +204,9 @@ function App() {
           </div>
         </section>
 
-        {/* —— Projects —— */}
+        {/* —— Products —— */}
         <section
-          id="projects"
+          id="products"
           className="relative z-10 border-t border-sand/10 py-24 md:py-32"
         >
           <div className="mx-auto max-w-7xl px-5 md:px-8">
@@ -235,7 +235,7 @@ function App() {
             </div>
             <div className="mt-16 flex gap-6 lg:gap-8">
               <div className=" flex gap-6 lg:col-span-7">
-                {projects.map((project, index) => (
+                {products.map((project, index) => (
                   <article
                     key={project.title}
                     className={`flex-1 reveal ${["reveal-delay-1", "reveal-delay-2", "reveal-delay-3"][index]} relative rounded overflow-hidden bg-linear-to-br ${project.tone} p-6 md:p-8`}
