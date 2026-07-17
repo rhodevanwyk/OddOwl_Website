@@ -166,8 +166,9 @@ function ProductCard({ product, index, inCart, onAdd, onRemove }) {
 
   return (
     <article
-      className={`reveal ${delayClass} relative overflow-hidden rounded bg-linear-to-br ${product.tone} p-6 md:p-8`}
+  className={`reveal ${delayClass} relative flex flex-col overflow-hidden rounded bg-linear-to-br ${product.tone} p-6 md:p-8`}
     >
+      <div>
       <img
         src={product.image}
         alt={product.title}
@@ -187,10 +188,11 @@ function ProductCard({ product, index, inCart, onAdd, onRemove }) {
       <p className="mt-4 text-base leading-relaxed text-sand/80">
         {product.blurb}
       </p>
+    </div>
       <button
         type="button"
         onClick={() => (inCart ? onRemove(product.title) : onAdd(product))}
-        className={`mt-6 w-full rounded px-6 py-3 font-body text-sm tracking-widest uppercase transition ${
+        className={`mt-auto w-full rounded px-6 py-3 font-body text-sm tracking-widest uppercase transition ${
           inCart
             ? "border border-copper text-copper hover:bg-copper/10"
             : "bg-leather text-moon hover:bg-copper"
