@@ -12,6 +12,10 @@ const navLinks = [
   { href: "#products", label: "Products" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
+  { href: "#insta", label: <i class="fa-brands fa-instagram text-[30px]"></i> },
+  { href: "#fb", label: <i class="fa-brands fa-facebook text-[30px]"></i> },
+  { href: "#contact", label: <i class="fa-brands fa-whatsapp text-[30px]"></i> },
+  { href: "#contact", label: <i class="fa-solid fa-envelope text-[30px]"></i> },
 ];
 
 const products = [
