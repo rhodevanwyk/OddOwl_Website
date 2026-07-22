@@ -4,9 +4,9 @@ import logoImg from "../assets/logo.png";
 import navLogo from "../assets/favicon.png";
 import "../index.css";
 import { Link } from "react-router-dom";
-import product1 from "../assets/product1.png";
-import product2 from "../assets/product2.png";
-import product3 from "../assets/product3.png";
+import product1 from '../assets/barocat.png'; 
+import product2 from '../assets/elephant.png'; 
+import product3 from '../assets/crocheart.png'; 
 
 const navLinks = [
   { href: "#products", label: "Products" },
@@ -313,15 +313,14 @@ function App() {
               </h2>
               <div className="mt-6 h-px w-24 bg-sand/35" />
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-mist md:text-xl">
-                OddOwl builds wallets and bags for people who collect oddities,
-                tarot tables, late-night markets, and quiet rooms full of brass
-                and dried flowers. Nothing here is mass-produced. Every stitch
+                OddOwl builds wallets and bags for people who wish to have their own unique piece, from a wide range of tastes stretching from Steampunk to Classic.
+                Nothing here is mass-produced. Every stitch
                 is placed for character, not catalogue uniformity.
               </p>
               <p className="mt-5 max-w-xl text-lg leading-relaxed text-mist md:text-xl">
                 Bring a sketch, a fabric scrap, or just a feeling. We translate
                 it into hardware, grain, and silhouette - custom, tactile, and
-                slightly unsettling in the best way.
+                in the best way.
               </p>
             </div>
           </div>
