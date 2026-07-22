@@ -4,12 +4,12 @@ import product3 from "../assets/product3.png";
 import product4 from "../assets/product4.png";
 import product5 from "../assets/product5.png";
 import product6 from "../assets/product6.png";
-import product7 from "../assets/product6.png";
-import product8 from "../assets/product6.png";
-import product9 from "../assets/product6.png";
-import product10 from "../assets/product6.png";
-import product11 from "../assets/product6.png";
-import product12 from "../assets/product6.png";
+import product7 from "../assets/evilbunny.png";
+import product8 from "../assets/redbird.png";
+import product9 from "../assets/dragon.png";
+import product10 from "../assets/tiger.png";
+import product11 from "../assets/weed.png";
+import product12 from "../assets/crescent.png";
 import product13 from "../assets/product6.png";
 
 export default [
@@ -82,7 +82,7 @@ export default [
   amount: 450,
 },
   {
-    image: product2,
+    image: product7,
     title: "Obsidian Owl",
     material: "Black calf · Silver rivets",
     blurb:
@@ -93,7 +93,7 @@ export default [
     amount: 190,
   },
   {
-    image: product1,
+    image: product8,
     title: "Thorn Bloom",
     material: "Floral damask · Rose hardware",
     blurb:
@@ -104,7 +104,84 @@ export default [
     amount: 360,
   },
   {
-    image: product3,
+    image: product9,
+    title: "Night Orchid",
+    material: "Velvet · Antique buckle",
+    blurb:
+      "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
+    tone: "from-velvet/60 via-from to-void",
+    accent: "text-copper",
+    price: "R480.00",
+    amount: 480,
+  },
+  {
+    image: product10,
+    title: "Night Orchid",
+    material: "Velvet · Antique buckle",
+    blurb:
+      "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
+    tone: "from-velvet/60 via-from to-void",
+    accent: "text-copper",
+    price: "R480.00",
+    amount: 480,
+  },
+  {
+    image: product11,
+    title: "Night Orchid",
+    material: "Velvet · Antique buckle",
+    blurb:
+      "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
+    tone: "from-velvet/60 via-from to-void",
+    accent: "text-copper",
+    price: "R480.00",
+    amount: 480,
+  },
+  {
+    image: product12,
+    title: "Night Orchid",
+    material: "Velvet · Antique buckle",
+    blurb:
+      "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
+    tone: "from-velvet/60 via-from to-void",
+    accent: "text-copper",
+    price: "R480.00",
+    amount: 480,
+  },
+  {
+    image: product8,
+    title: "Night Orchid",
+    material: "Velvet · Antique buckle",
+    blurb:
+      "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
+    tone: "from-velvet/60 via-from to-void",
+    accent: "text-copper",
+    price: "R480.00",
+    amount: 480,
+  },
+  {
+    image: product8,
+    title: "Night Orchid",
+    material: "Velvet · Antique buckle",
+    blurb:
+      "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
+    tone: "from-velvet/60 via-from to-void",
+    accent: "text-copper",
+    price: "R480.00",
+    amount: 480,
+  },
+  {
+    image: product8,
+    title: "Night Orchid",
+    material: "Velvet · Antique buckle",
+    blurb:
+      "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
+    tone: "from-velvet/60 via-from to-void",
+    accent: "text-copper",
+    price: "R480.00",
+    amount: 480,
+  },
+  {
+    image: product8,
     title: "Night Orchid",
     material: "Velvet · Antique buckle",
     blurb:
