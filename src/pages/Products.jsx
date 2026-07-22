@@ -23,17 +23,18 @@ const products = [
     price: "R120.00",
     amount: 120,
   },
-  {
-    image: product1,
-    title: "Cork Elephant",
-    material: "Natural cork · Embroidery",
-    blurb:
-      "Raw cork grain meets a hand-stitched elephant, earthy weight with a quiet stare.",
-    tone: "from-leather/40 via-ink to-void",
-    accent: "text-copper",
-    price: "R150.00",
-    amount: 150,
-  },
+{
+  image: product1,
+  title: "Cork Elephant",
+  material: "Natural Cork · Embroidery · Canvas Lining",
+  blurb:
+    "Handcrafted cellphone bag (19.5 × 14 cm) featuring a beautifully embroidered elephant on a strengthened cork flap. Includes an outer zip pocket and an inner card pocket, finished with an adjustable 25 mm webbing strap. Made with natural cork, canvas or vinyl, with custom embroidery and colour options available.",
+  tone: "from-leather/40 via-ink to-void",
+  accent: "text-copper",
+  price: "R190.00",
+  amount: 190,
+},
+
   {
     image: product3,
     title: "Heart Croc",
