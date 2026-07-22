@@ -219,7 +219,7 @@ function Products() {
               <div className="mt-5 h-px w-28 bg-brass/70" />
               <p className="mt-5 w-full text-lg text-mist">
                 Review the pieces you have chosen. When you are ready, proceed
-                and WhatsApp will open with a ready-made message for OddOwl.
+                and WhatsApp will open with a ready-made message for OddOwl. Please note that the following prices excludes any/all shipping costs.
               </p>
             </div>
 

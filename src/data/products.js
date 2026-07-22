@@ -31,7 +31,7 @@ export default [
     title: "Tiger's eye",
     material: "Natural Cork · Embroidery · Canvas Lining",
     blurb:
-      "Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+        "A fierce tiger eye tears through the cork, creating a bold statement with every wear. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
     tone: "from-void via-plume to-ink",
     accent: "text-copper",
     price: "R190.00",
@@ -39,10 +39,10 @@ export default [
   },
   {
     image: product3,
-    title: "Red Bird",
+    title: "Red Phoenix",
     material: "Natural Cork · Embroidery · Canvas Lining",
     blurb:
-      "Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+      "A vibrant phoenix embroidery symbolising strength, renewal, and fearless individuality. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
     tone: "from-leather/30 via-plume to-void",
     accent: "text-copper",
     price: "R190.00",
@@ -53,7 +53,7 @@ export default [
     title: "Evil Bunny",
     material: "Natural Cork · Embroidery · Canvas Lining",
     blurb:
-      "Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+      "A quirky stitched bunny with a delightfully eerie grin, made for those who love the unusual. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
     tone: "from-velvet/60 via-from to-void",
     accent: "text-copper",
     price: "R190.00",
@@ -64,7 +64,7 @@ export default [
     title: "Dragon Teeth",
     material: "Natural Cork · Embroidery · Canvas Lining",
     blurb:
-      "Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+      "A mystical dragon eye watches from beneath embroidered scales, crafted for fantasy lovers. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
     tone: "from-velvet/60 via-from to-void",
     accent: "text-copper",
     price: "R190.00",
@@ -75,7 +75,7 @@ export default [
   title: "Rianbow High",
   material: "Natural Cork · Embroidery · Canvas Lining",
   blurb:
-    "Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+    "A colourful embroidered leaf adds a playful splash of vibrant personality to your everyday style. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
   tone: "from-copper/35 via-from to-void",
   accent: "text-copper",
   price: "R190.00",
@@ -86,7 +86,7 @@ export default [
   title: "Night Crescent",
   material: "Natural Cork · Embroidery · Canvas Lining",
   blurb:
-    "Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+    "A shimmering crescent moon embroidered with elegant scrollwork for lovers of celestial beauty. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
   tone: "from-copper/35 via-from to-void",
   accent: "text-copper",
   price: "R190.00",
@@ -97,7 +97,7 @@ export default [
     title: "Velvet Cat",
     material: "Natural Cork ·  · Canvas Lining",
     blurb:
-      "Baroque blue scrollwork wrapped around a silver feline silhouette, Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+      "Baroque blue scrollwork wrapped around a silver feline silhouette. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
     tone: "from-from/80 via-plume to-void",
     accent: "text-copper",
     price: "R190.00",
@@ -108,7 +108,7 @@ export default [
     title: "Steam Punk",
     material: "Natural Cork ·  · Canvas Lining",
     blurb:
-      "Intricate steampunk gears intertwined with crimson roses, blending Victorian elegance with industrial charm. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+      "Intricate clockwork gears and crimson roses unite in a timeless steampunk-inspired design. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
     tone: "from-copper/35 via-from to-void",
     accent: "text-copper",
     price: "R190.00",
@@ -120,7 +120,7 @@ export default [
     title: "Crimson Web Wallet",
   material: "Genuine Leather · Brass Snap",
   blurb:
-    "A bold fusion of midnight leather and crimson web detailing. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
+    "A bold black wallet stitched with a crimson spider web, perfect for gothic and alternative styles. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
   tone: "from-from/80 via-plume to-void",
   accent: "text-copper",
   price: "R350.00",
