@@ -111,8 +111,8 @@ export default [
       "Intricate steampunk gears intertwined with crimson roses, blending Victorian elegance with industrial charm. Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour.",
     tone: "from-copper/35 via-from to-void",
     accent: "text-copper",
-    price: "R350.00",
-    amount: 350,
+    price: "R190.00",
+    amount: 190,
   },
   
 {
