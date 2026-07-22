@@ -1,4 +1,3 @@
-
 import product1 from "../assets/product1.png";
 import product2 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
