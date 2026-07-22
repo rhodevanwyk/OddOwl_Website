@@ -4,6 +4,27 @@ import product3 from "../assets/product3.png";
 import product4 from "../assets/product4.png";
 import product5 from "../assets/product5.png";
 import product6 from "../assets/product6.png";
+import product6 from "../assets/product6.png";
+import product6 from "../assets/product6.png";
+import product6 from "../assets/product6.png";
+import product6 from "../assets/product6.png";
+import product6 from "../assets/product6.png";
+import product6 from "../assets/product6.png";
+import product6 from "../assets/product6.png";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
