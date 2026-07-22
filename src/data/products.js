@@ -29,7 +29,7 @@ export default [
   {
     image: product2,
     title: "Tiger's eye",
-    material: "Black calf · Silver rivets",
+    material: "Natural Cork · Embroidery · Canvas Lining",
     blurb:
       "A compact wallet with an owl silhouette pressed into black calf and sealed with silver rivets.",
     tone: "from-void via-plume to-ink",
@@ -40,7 +40,7 @@ export default [
   {
     image: product3,
     title: "Red Bird",
-    material: "Floral damask · Rose hardware",
+    material: "Natural Cork · Embroidery · Canvas Lining",
     blurb:
       "Petal-soft fabric over a structured frame, finished with rose-toned hardware that refuses to whisper.",
     tone: "from-leather/30 via-plume to-void",
@@ -51,7 +51,7 @@ export default [
   {
     image: product4,
     title: "Evil Bunny",
-    material: "Velvet · Antique buckle",
+    material: "Natural Cork · Embroidery · Canvas Lining",
     blurb:
       "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
     tone: "from-velvet/60 via-from to-void",
@@ -62,7 +62,7 @@ export default [
   {
     image: product5,
     title: "Dragon Flesh",
-    material: "Velvet · Antique buckle",
+    material: "Natural Cork · Embroidery · Canvas Lining",
     blurb:
       "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
     tone: "from-velvet/60 via-from to-void",
@@ -73,7 +73,7 @@ export default [
   {
   image: product6,
   title: "Rianbow High",
-  material: "Natural Cork · Brass Snap",
+  material: "Natural Cork · Embroidery · Canvas Lining",
   blurb:
     "Soft woodland charm embroidered onto natural cork, creating a playful handmade companion inspired by gentle forest adventures.",
   tone: "from-copper/35 via-from to-void",
@@ -84,7 +84,7 @@ export default [
   {
     image: product7,
   title: "Night Crescent",
-  material: "Natural Cork · Brass Snap",
+  material: "Natural Cork · Embroidery · Canvas Lining",
   blurb:
     "Soft woodland charm embroidered onto natural cork, creating a playful handmade companion inspired by gentle forest adventures.",
   tone: "from-copper/35 via-from to-void",
@@ -95,7 +95,7 @@ export default [
    {
     image: product8,
     title: "Velvet Cat",
-    material: "Damask · Brass snap",
+    material: "Natural Cork ·  · Canvas Lining",
     blurb:
       "Baroque blue scrollwork wrapped around a silver feline silhouette, Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour and embroidery options.",
     tone: "from-from/80 via-plume to-void",
@@ -106,7 +106,7 @@ export default [
   {
     image: product9,
     title: "Steam Punk",
-    material: "Embossed leather · Gold studs",
+    material: "Natural Cork ·  · Canvas Lining",
     blurb:
       "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
     tone: "from-copper/35 via-from to-void",
