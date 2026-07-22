@@ -4,29 +4,13 @@ import product3 from "../assets/product3.png";
 import product4 from "../assets/product4.png";
 import product5 from "../assets/product5.png";
 import product6 from "../assets/product6.png";
-import product6 from "../assets/product6.png";
-import product6 from "../assets/product6.png";
-import product6 from "../assets/product6.png";
-import product6 from "../assets/product6.png";
-import product6 from "../assets/product6.png";
-import product6 from "../assets/product6.png";
-import product6 from "../assets/product6.png";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import product7 from "../assets/product6.png";
+import product8 from "../assets/product6.png";
+import product9 from "../assets/product6.png";
+import product10 from "../assets/product6.png";
+import product11 from "../assets/product6.png";
+import product12 from "../assets/product6.png";
+import product13 from "../assets/product6.png";
 
 export default [
   {
