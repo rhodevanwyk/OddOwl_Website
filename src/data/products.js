@@ -1,14 +1,14 @@
-import product1 from "../assets/product1.png";
-import product2 from "../assets/product2.png";
-import product3 from "../assets/product3.png";
-import product4 from "../assets/product4.png";
-import product5 from "../assets/product5.png";
-import product6 from "../assets/crescent.png";
-import product7 from "../assets/evilbunny.png";
-import product8 from "../assets/redbird.png";
-import product9 from "../assets/dragon.png";
-import product10 from "../assets/tiger.png";
-import product11 from "../assets/weed.png";
+import product1 from "../assets/elephant.png";
+import product2 from "../assets/tiger.png";
+import product3 from "../assets/redbird.png";
+import product4 from "../assets/evilbunny.png";
+import product5 from "../assets/dragon.png";
+import product6 from "../assets/weed.png";
+import product7 from "../assets/crescent.png";
+import product8 from "../assets/barocat.png";
+import product9 from "../assets/crimsonwallet.png";
+import product10 from "../assets/whitecircle.png";
+import product11 from "../assets/crocheart.png";
 
 
 export default [
@@ -26,7 +26,7 @@ export default [
 },
 
   {
-    image: product7,
+    image: product2,
     title: "Obsidian Owl",
     material: "Black calf · Silver rivets",
     blurb:
@@ -37,7 +37,7 @@ export default [
     amount: 190,
   },
   {
-    image: product8,
+    image: product3,
     title: "Thorn Bloom",
     material: "Floral damask · Rose hardware",
     blurb:
@@ -48,7 +48,7 @@ export default [
     amount: 190,
   },
   {
-    image: product9,
+    image: product4,
     title: "Night Orchid",
     material: "Velvet · Antique buckle",
     blurb:
@@ -59,7 +59,7 @@ export default [
     amount: 190,
   },
   {
-    image: product10,
+    image: product5,
     title: "Night Orchid",
     material: "Velvet · Antique buckle",
     blurb:
@@ -81,7 +81,7 @@ export default [
   amount: 190,
 },
   {
-    image: product2,
+    image: product7,
     title: "Velvet Cat",
     material: "Damask · Brass snap",
     blurb:
@@ -92,7 +92,7 @@ export default [
     amount: 190,
   },
    {
-  image: product4,
+  image: product8,
   title: "Crimson Scale Wallet",
   material: "Genuine Leather · Brass Snap",
   blurb:
@@ -103,7 +103,7 @@ export default [
   amount: 350,
 },
 {
-  image: product5,
+  image: product9,
   title: "Moonstone Circle Bag",
   material: "Leather · Metal Chain",
   blurb:
@@ -115,7 +115,7 @@ export default [
 },
   
   {
-    image: product3,
+    image: product10,
     title: "Heart Croc",
     material: "Embossed leather · Gold studs",
     blurb:
@@ -125,5 +125,15 @@ export default [
     price: "R350.00",
     amount: 350,
   },
-
+  {
+    image: product11,
+    title: "Heart Croc",
+    material: "Embossed leather · Gold studs",
+    blurb:
+      "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
+    tone: "from-copper/35 via-from to-void",
+    accent: "text-copper",
+    price: "R350.00",
+    amount: 350,
+  },
 ];
