@@ -4,22 +4,28 @@ import logoImg from "../assets/logo.png";
 import navLogo from "../assets/favicon.png";
 import "../index.css";
 import { Link } from "react-router-dom";
-import product1 from '../assets/product1.png'; 
-import product2 from '../assets/product2.png'; 
-import product3 from '../assets/product3.png'; 
+import product1 from "../assets/product1.png";
+import product2 from "../assets/product2.png";
+import product3 from "../assets/product3.png";
 
 const navLinks = [
   { href: "#products", label: "Products" },
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
-  { href: "#insta", label: <i class="fa-brands fa-instagram text-[30px]"></i> },
+  {
+    href: "https://www.instagram.com/oddowl2026/?__pwa=1#",
+    label: <i class="fa-brands fa-instagram text-[30px]"></i>,
+  },
   { href: "#fb", label: <i class="fa-brands fa-facebook text-[30px]"></i> },
-  { href: "#contact", label: <i class="fa-brands fa-whatsapp text-[30px]"></i> },
+  {
+    href: "#contact",
+    label: <i class="fa-brands fa-whatsapp text-[30px]"></i>,
+  },
   { href: "#contact", label: <i class="fa-solid fa-envelope text-[30px]"></i> },
 ];
 
 const products = [
-  { 
+  {
     image: product2,
     title: "Velvet Cat",
     material: "Damask · Brass snap",
@@ -332,10 +338,13 @@ function App() {
                 Start Something Awesome
               </p>
               <h2 className="mt-2 font-display text-4xl text-moon md:text-6xl">
-                Commission A Piece 
+                Commission A Piece
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-mist">
-                Are you in search of something new, unique, something of your taste? If so, please fill the form so that we can discuss you perfect custom piece. Otherwise please contact us via the email below for any questions you might have :)
+                Are you in search of something new, unique, something of your
+                taste? If so, please fill the form so that we can discuss you
+                perfect custom piece. Otherwise please contact us via the email
+                below for any questions you might have :)
               </p>
               <div className="mt-10 space-y-3 text-sand/80">
                 <a
@@ -383,7 +392,7 @@ function App() {
 
               <label className="block">
                 <span className="mb-2 block font-body text-xs tracking-widest text-mist uppercase">
-                  Piece In Mind 
+                  Piece In Mind
                 </span>
                 <select
                   name="piece"
@@ -441,9 +450,9 @@ function App() {
 
       {/* —— Footer —— */}
       <footer className="relative z-10 border-t border-sand/10 flex py-6 px-10">
-          <p className="font-body text-xs text-mist/70">
-            © {new Date().getFullYear()} OddOwl, All Rights Reserved
-          </p>
+        <p className="font-body text-xs text-mist/70">
+          © {new Date().getFullYear()} OddOwl, All Rights Reserved
+        </p>
       </footer>
     </div>
   );
