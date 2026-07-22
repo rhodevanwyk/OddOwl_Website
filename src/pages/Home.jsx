@@ -4,9 +4,9 @@ import logoImg from "../assets/logo.png";
 import navLogo from "../assets/favicon.png";
 import "../index.css";
 import { Link } from "react-router-dom";
-import product1 from '../assets/product1.png'; 
-import product2 from '../assets/product2.png'; 
-import product3 from '../assets/product3.png'; 
+import product1 from '../assets/barocat.png'; 
+import product2 from '../assets/elephant.png'; 
+import product3 from '../assets/crocheart.png'; 
 
 const navLinks = [
   { href: "#products", label: "Products" },

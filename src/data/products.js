@@ -27,7 +27,7 @@ export default [
 
   {
     image: product2,
-    title: "Obsidian Owl",
+    title: "Tiger's eye",
     material: "Black calf · Silver rivets",
     blurb:
       "A compact wallet with an owl silhouette pressed into black calf and sealed with silver rivets.",
@@ -38,7 +38,7 @@ export default [
   },
   {
     image: product3,
-    title: "Thorn Bloom",
+    title: "Red Bird",
     material: "Floral damask · Rose hardware",
     blurb:
       "Petal-soft fabric over a structured frame, finished with rose-toned hardware that refuses to whisper.",
@@ -49,7 +49,7 @@ export default [
   },
   {
     image: product4,
-    title: "Night Orchid",
+    title: "Evil Bunny",
     material: "Velvet · Antique buckle",
     blurb:
       "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
@@ -60,7 +60,7 @@ export default [
   },
   {
     image: product5,
-    title: "Night Orchid",
+    title: "Dragon Flesh",
     material: "Velvet · Antique buckle",
     blurb:
       "Plush velvet in near-black purple, held shut by an antique buckle salvaged from a quieter century.",
@@ -71,7 +71,7 @@ export default [
   },
   {
   image: product6,
-  title: "Night Crescent",
+  title: "Rianbow High",
   material: "Natural Cork · Brass Snap",
   blurb:
     "Soft woodland charm embroidered onto natural cork, creating a playful handmade companion inspired by gentle forest adventures.",
@@ -82,6 +82,17 @@ export default [
 },
   {
     image: product7,
+  title: "Night Crescent",
+  material: "Natural Cork · Brass Snap",
+  blurb:
+    "Soft woodland charm embroidered onto natural cork, creating a playful handmade companion inspired by gentle forest adventures.",
+  tone: "from-copper/35 via-from to-void",
+  accent: "text-copper",
+  price: "R190.00",
+  amount: 190,
+  },
+   {
+    image: product8,
     title: "Velvet Cat",
     material: "Damask · Brass snap",
     blurb:
@@ -90,10 +101,10 @@ export default [
     accent: "text-copper",
     price: "R190.00",
     amount: 190,
-  },
-   {
-  image: product8,
-  title: "Crimson Scale Wallet",
+},
+{
+  image: product9,
+    title: "Crimson Scale Wallet",
   material: "Genuine Leather · Brass Snap",
   blurb:
     "A bold fusion of midnight leather and crimson scale detailing, stitched by hand for those who appreciate craftsmanship with a daring edge.",
@@ -102,9 +113,10 @@ export default [
   price: "R350.00",
   amount: 350,
 },
-{
-  image: product9,
-  title: "Moonstone Circle Bag",
+  
+  {
+    image: product10,
+    title: "Moonstone Circle Bag",
   material: "Leather · Metal Chain",
   blurb:
     "Clean geometric lines meet soft ivory textures in a timeless circular silhouette, designed to bring understated elegance to every outfit.",
@@ -112,18 +124,7 @@ export default [
   accent: "text-copper",
   price: "R520.00",
   amount: 520,
-},
-  
-  {
-    image: product10,
-    title: "Heart Croc",
-    material: "Embossed leather · Gold studs",
-    blurb:
-      "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
-    tone: "from-copper/35 via-from to-void",
-    accent: "text-copper",
-    price: "R350.00",
-    amount: 350,
+
   },
   {
     image: product11,
@@ -136,4 +137,5 @@ export default [
     price: "R350.00",
     amount: 350,
   },
+  
 ];
