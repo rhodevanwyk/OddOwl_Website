@@ -103,8 +103,20 @@ export default [
     price: "R190.00",
     amount: 190,
 },
+  {
+    image: product9,
+    title: "Steam Punk",
+    material: "Embossed leather · Gold studs",
+    blurb:
+      "A rigid crimson heart with crocodile texture and a diagonal strap pinned in antique gold.",
+    tone: "from-copper/35 via-from to-void",
+    accent: "text-copper",
+    price: "R350.00",
+    amount: 350,
+  },
+  
 {
-  image: product9,
+  image: product10,
     title: "Crimson Scale Wallet",
   material: "Genuine Leather · Brass Snap",
   blurb:
@@ -116,7 +128,7 @@ export default [
 },
   
   {
-    image: product10,
+    image: product11,
     title: "Moonstone Circle Bag",
   material: "Leather · Metal Chain",
   blurb:
@@ -128,7 +140,7 @@ export default [
 
   },
   {
-    image: product11,
+    image: product12,
     title: "Heart Croc",
     material: "Embossed leather · Gold studs",
     blurb:
