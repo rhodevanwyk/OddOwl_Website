@@ -17,7 +17,7 @@ const products = [
     title: "Velvet Cat",
     material: "Damask · Brass snap",
     blurb:
-      "Baroque blue scrollwork wrapped around a silver feline silhouette, made for nights that refuse ordinary.",
+      "Baroque blue scrollwork wrapped around a silver feline silhouette, Handcrafted 19.5 × 14 cm cellphone bag. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour and embroidery options.",
     tone: "from-from/80 via-plume to-void",
     accent: "text-copper",
     price: "R120.00",
@@ -28,13 +28,14 @@ const products = [
   title: "Cork Elephant",
   material: "Natural Cork · Embroidery · Canvas Lining",
   blurb:
-    "Handcrafted cellphone bag (19.5 × 14 cm) featuring a beautifully embroidered elephant on a strengthened cork flap. Includes an outer zip pocket and an inner card pocket, finished with an adjustable 25 mm webbing strap. Made with natural cork, canvas or vinyl, with custom embroidery and colour options available.",
+  "Handcrafted 19.5 × 14 cm cellphone bag with an embroidered elephant design. Features an outer zip pocket, inner card pocket, adjustable 25 mm strap, and custom colour and embroidery options.",
   tone: "from-leather/40 via-ink to-void",
   accent: "text-copper",
   price: "R190.00",
   amount: 190,
 },
 
+  
   {
     image: product3,
     title: "Heart Croc",
