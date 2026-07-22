@@ -6,9 +6,10 @@ import product5 from "../assets/dragon.png";
 import product6 from "../assets/weed.png";
 import product7 from "../assets/crescent.png";
 import product8 from "../assets/barocat.png";
-import product9 from "../assets/crimsonwallet.png";
-import product10 from "../assets/whitecircle.png";
-import product11 from "../assets/crocheart.png";
+import product9 from "../assets/steampunk.png";
+import product10 from "../assets/crimsonwallet.png";
+import product11 from "../assets/whitecircle.png";
+import product12 from "../assets/crocheart.png";
 
 
 export default [
