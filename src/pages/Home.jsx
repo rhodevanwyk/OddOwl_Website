@@ -13,7 +13,7 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
   {
-    href: "https://www.instagram.com/oddowl2026/?__pwa=1#",
+    href: "https://www.instagram.com/oddowl_business/?__pwa=1#",
     label: <i class="fa-brands fa-instagram text-[30px]"></i>,
   },
   { href: "#fb", label: <i class="fa-brands fa-facebook text-[30px]"></i> },
