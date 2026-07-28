@@ -4,9 +4,9 @@ import logoImg from "../assets/logo.png";
 import navLogo from "../assets/favicon.png";
 import "../index.css";
 import { Link } from "react-router-dom";
-import product1 from '../assets/barocat.png'; 
-import product2 from '../assets/elephant.png'; 
-import product3 from '../assets/crocheart.png'; 
+import product_1 from '../assets/elephant.png'; 
+import product_2 from '../assets/cat.png'; 
+import product_3 from '../assets/heart.png'; 
 
 const navLinks = [
   { href: "#products", label: "Products" },
@@ -26,7 +26,7 @@ const navLinks = [
 
 const products = [
   {
-    image: product2,
+    image: product_2,
     title: "Velvet Cat",
     material: "Damask · Brass snap",
     blurb:
@@ -36,7 +36,7 @@ const products = [
     price: "R120",
   },
   {
-    image: product1,
+    image: product_1,
     title: "Cork Elephant",
     material: "Natural cork · Embroidery",
     blurb:
@@ -46,7 +46,7 @@ const products = [
     price: "R150",
   },
   {
-    image: product3,
+    image: product_3,
     title: "Heart Croc",
     material: "Embossed leather · Gold studs",
     blurb:
