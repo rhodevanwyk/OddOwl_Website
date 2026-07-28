@@ -195,7 +195,7 @@ function App() {
             </h1>
             <div className="anim-line mt-5 h-px w-28 bg-brass/70 md:w-40" />
             <p className="anim-rise-delay mt-6 max-w-md font-body text-lg leading-relaxed text-sand/90 md:text-xl">
-              Handcrafted Leather & Material Bags, Wallets...
+              Here at OddOwl we sell handmade leather and mixed-material goods crafted by a single pair of hands.<br></br><br></br>Come on in, take a look around!
             </p>
             <div className="anim-rise-delay mt-10 flex flex-wrap gap-4">
               <a
