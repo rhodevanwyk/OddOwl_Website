@@ -33,7 +33,7 @@ const products = [
       "Baroque blue scrollwork wrapped around a silver feline silhouette, made for nights that refuse ordinary.",
     tone: "from-from/80 via-plume to-void",
     accent: "text-copper",
-    price: "R120",
+    price: "R190",
   },
   {
     image: product_1,
@@ -43,7 +43,7 @@ const products = [
       "Raw cork grain meets a hand-stitched elephant, earthy weight with a quiet stare.",
     tone: "from-leather/40 via-ink to-void",
     accent: "text-copper",
-    price: "R150",
+    price: "R190",
   },
   {
     image: product_3,
