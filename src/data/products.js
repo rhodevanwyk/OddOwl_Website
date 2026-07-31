@@ -13,6 +13,17 @@ import product_12 from "../assets/heart.png";
 import product_13 from "../assets/leather_checkboard.png";
 import product_14 from "../assets/copper_weave.png";
 import product_15 from "../assets/sapphire_lines.png";
+import product_16 from "../assets/bird.png";
+import product_17 from "../assets/Cthulu.png";
+import product_18 from "../assets/drogonfly.png";
+import product_19 from "../assets/rings.png";
+import product_20 from "../assets/clanks.png";
+import product_21 from "../assets/wasp.png";
+import product_22 from "../assets/SA.png";
+import product_23 from "../assets/warthog.png";
+import product_24 from "../assets/rose.png";
+import product_25 from "../assets/southafrica.png";
+import product_26 from "../assets/glowwolf.png";
 
 export default [
   {
