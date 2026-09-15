@@ -24,6 +24,7 @@ import product_23 from "../assets/warthog.png";
 import product_24 from "../assets/rose.png";
 import product_25 from "../assets/southafrica.png";
 import product_26 from "../assets/glowwolf.png";
+import product_27 from "../assets/butterfly.png";
 
 export default [
  {
@@ -328,11 +329,30 @@ export default [
   title: "Glow Wolf",
   material: "Premium Leather · Embroidery · Canvas Lining",
   blurb:
-    "Handcrafted 19.5 × 14 cm cellphone bag featuring a striking glowing wolf design, blending mystical energy with contemporary craftsmanship. Includes an outer zip pocket, inner card pocket, adjustable 25 mm strap, and is available in custom colours.",
+    "Handcrafted 19.5 × 14 cm cellphone bag featuring a striking glow in the dark wolf design, blending mystical energy with contemporary craftsmanship. Includes an outer zip pocket, inner card pocket, adjustable 25 mm strap, and is available in custom colours.",
   tone: "from-indigo-900/55 via-blue-900/45 to-void",
   accent: "text-copper",
   price: "R190.00",
   amount: 190,
 },
+
+{
+  image: product_27,
+  title: "Silver Butterfly",
+
+  material: "Premium Leather · Metallic Butterfly Detailing · Canvas Lining",
+
+  blurb:
+    "Elegant 15 × 22 cm cellphone bag featuring a striking silver butterfly design on a sleek black leather finish. Blending delicate detailing with contemporary craftsmanship, it includes an outer zip pocket, inner card pocket, adjustable 25 mm strap, and is available in custom colours.",
+
+  tone: "from-slate-900/55 via-gray-800/45 to-void",
+
+  accent: "text-copper",
+
+  price: "R300.00",
+
+  amount: 190,
+},
 ]
+
 
